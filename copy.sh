@@ -12,7 +12,7 @@ mkdir backup
 
 makedirs() {
     cd ./backup 
-    dirs=(portage calculate nu bash)
+    dirs=(portage calculate nu bash xfce)
     for direc in "${dirs[*]}" 
     do 
         mkdir ${direc}
@@ -71,12 +71,28 @@ copynuconf () {
     if [ -f "${HOME}/.config/nu/config.toml" ]; then 
         cp "${HOME}/.config/nu/config.toml" backup/nu
     fi
+    echo "Nushell config saved"
 }
+copybashconf() {
+    echo "Copying bash config..."
+    cp "${HOME}/.bashrc" backup/bash
+    echo "Bash config saved!"
+}
+copyxfconf () {
+    echo "Copying XFCE config"
+    if [ -d "${HOME}/.config/xfce4" ]; then 
+        cp -r "${HOME}/.config/xfce4" backup/xfce
+    fi
+    echo "XFCE config saved"
+}
+
 main() {
     copydir
     makedirs
     copyportage
     cpcalculateconf
     copynuconf
+    copybashconf
+    copyxfconf
 }
 main
