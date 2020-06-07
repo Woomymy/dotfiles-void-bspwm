@@ -85,7 +85,11 @@ copyxfconf () {
     fi
     echo "XFCE config saved"
 }
-
+pushgit() {
+    git add *
+    git commit -m "Backup $(date)"
+    git push origin master
+}
 main() {
     copydir
     makedirs
@@ -94,5 +98,6 @@ main() {
     copynuconf
     copybashconf
     copyxfconf
+    pushgit
 }
 main
