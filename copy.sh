@@ -12,7 +12,7 @@ mkdir backup
 
 makedirs() {
     cd ./backup 
-    dirs=(portage calculate nu bash xfce)
+    dirs=(portage calculate nu bash xfce zsh)
     for direc in "${dirs[*]}" 
     do 
         mkdir ${direc}
@@ -77,6 +77,15 @@ copybashconf() {
     echo "Copying bash config..."
     cp "${HOME}/.bashrc" backup/bash
     echo "Bash config saved!"
+}
+copyzshconf () {
+    echo "Copying ZSH config..."
+    if [ -f "${HOME}/.zshrc" ]; then 
+        cp "${HOME}/.zshrc" backup/zsh 
+    fi
+    if [ -d "${HOME}/.oh-my-zsh" ]; then 
+        cp -r "${HOME}/.oh-my-zsh" backup/zsh/
+    fi
 }
 copyxfconf () {
     echo "Copying XFCE config"

@@ -1,9 +1,4 @@
 [Configuration]
-ColorBackground=#2c2c2c2c2c2c
-ColorBold=#dcdcdcdccccc
-ColorForeground=#ffffffffffff
-ColorPalette=rgb(4,0,0);rgb(112,80,80);rgb(49,125,87);rgb(223,175,143);rgb(154,184,215);rgb(220,140,195);rgb(140,208,211);rgb(220,220,204);rgb(55,175,115);rgb(220,163,163);rgb(114,213,163);rgb(240,223,175);rgb(148,191,243);rgb(236,147,211);rgb(147,224,227);rgb(255,255,255)
-ColorSelection=#dcdcdcdccccc
 FontName=Droid Sans Mono Slashed 10
 MiscConfirmClose=FALSE
 MiscShowUnsafePasteDialog=FALSE
@@ -13,7 +8,6 @@ ScrollingOnOutput=FALSE
 ShortcutsNoHelpkey=TRUE
 ShortcutsNoMenukey=TRUE
 ShortcutsNoMnemonics=TRUE
-TabActivityColor=#2c2c2c2c2c2c
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBellUrgent=FALSE
