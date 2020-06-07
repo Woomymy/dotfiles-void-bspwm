@@ -44,6 +44,17 @@ copyportage() {
             echo "Unable to read file /etc/portage/make.${direc}"
         fi
     done 
+    other=(profile repos.conf)
+    for direc in ${other[*]}
+    do 
+        if [ -d "/etc/portage/${direc}" ]; then 
+            cp -r /etc/portage/${direc} .
+        elif [ -r "/etc/portage/${direc}" ]; then 
+           cp /etc/portage/${direc} .  
+        elif [ -f "/etc/portage/${direc}" ]; then 
+            echo "Unable to read file /etc/portage/${direc}"
+        fi
+    done 
 }
 
 main() {
