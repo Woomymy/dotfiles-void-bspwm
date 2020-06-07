@@ -12,7 +12,7 @@ mkdir backup
 
 makedirs() {
     cd ./backup 
-    dirs=(portage node  config)
+    dirs=(portage calculate  config)
     for direc in "${dirs[*]}" 
     do 
         mkdir ${direc}
@@ -56,15 +56,20 @@ copyportage() {
         fi
     done 
     cp /var/lib/portage/world .
-    echo "Portage config saved"
+    cd ../..
+    echo "Portage config saved!"
 }
-
+cpcalculateconf () {
+    echo "Saving Calculate Config..."
+    if [ -f "${HOME}/.calculate/ini.env" ]; then 
+        cp "${HOME}/.calculate/ini.env" ./backup/calculate
+    fi
+    echo "Calculate config saved!"
+}
 main() {
     copydir
     makedirs
     copyportage
+    cpcalculateconf
 }
-
-
-
 main
