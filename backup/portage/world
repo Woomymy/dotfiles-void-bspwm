@@ -36,6 +36,7 @@ net-fs/nfs-utils
 net-im/discord-bin
 net-misc/dhcp
 net-misc/youtube-dl
+net-p2p/transmission
 net-wireless/wireless-tools
 net-wireless/wpa_supplicant
 sys-apps/calculate-toolkit

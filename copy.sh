@@ -12,7 +12,7 @@ mkdir backup
 
 makedirs() {
     cd ./backup 
-    dirs=(portage calculate  config)
+    dirs=(portage calculate nu bash)
     for direc in "${dirs[*]}" 
     do 
         mkdir ${direc}
@@ -66,10 +66,17 @@ cpcalculateconf () {
     fi
     echo "Calculate config saved!"
 }
+copynuconf () {
+    echo "Copying Nushell configuration..."
+    if [ -f "${HOME}/.config/nu/config.toml" ]; then 
+        cp "${HOME}/.config/nu/config.toml" backup/nu
+    fi
+}
 main() {
     copydir
     makedirs
     copyportage
     cpcalculateconf
+    copynuconf
 }
 main
