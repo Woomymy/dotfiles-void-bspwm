@@ -17,6 +17,9 @@ app-portage/eix
 app-portage/gentoolkit
 app-shells/bash-completion
 app-shells/gentoo-bashcomp
+app-shells/gentoo-zsh-completions
+app-shells/zsh
+app-shells/zsh-completions
 dev-java/openjdk-bin
 dev-java/openjdk-jre-bin
 dev-libs/boost
@@ -63,6 +66,7 @@ sys-fs/cryptsetup
 sys-fs/e2fsprogs
 sys-fs/ecryptfs-utils
 sys-fs/eudev
+sys-fs/ntfs3g
 sys-fs/reiserfsprogs
 sys-fs/xfsprogs
 sys-kernel/calculate-sources
