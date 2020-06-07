@@ -55,6 +55,8 @@ copyportage() {
             echo "Unable to read file /etc/portage/${direc}"
         fi
     done 
+    cp /var/lib/portage/world .
+    echo "Portage config saved"
 }
 
 main() {
