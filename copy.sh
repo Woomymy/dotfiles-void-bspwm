@@ -33,7 +33,17 @@ copyportage() {
             echo "Unable to read file /etc/portage/package.${direc}"
         fi
     done
-
+    makedot=(conf profile)
+    for direc in ${makedot[*]}
+    do 
+        if [ -d "/etc/portage/make.${direc}" ]; then 
+            cp -r /etc/portage/make.${direc} .
+        elif [ -r "/etc/portage/make.${direc}" ]; then 
+           cp /etc/portage/make.${direc} .  
+        elif [ -f "/etc/portage/make.${direc}" ]; then 
+            echo "Unable to read file /etc/portage/make.${direc}"
+        fi
+    done 
 }
 
 main() {
