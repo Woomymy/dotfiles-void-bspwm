@@ -1,0 +1,5 @@
+alias cls="clear"
+alias edituse="sudo nano /etc/portage/package.use/custom"
+alias optimake="make -j5"
+alias makei="make install"
+alias yesupdate="yes | sudo cl-update -o"
