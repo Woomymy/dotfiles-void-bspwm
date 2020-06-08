@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="panels" type="uint" value="2">
+    <property name="panel-0" type="empty">
+      <property name="position" type="string" value="p=6;x=1260;y=16"/>
+      <property name="size" type="uint" value="27"/>
+      <property name="length" type="uint" value="46"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="20"/>
+        <value type="int" value="4"/>
+        <value type="int" value="8"/>
+        <value type="int" value="3"/>
+        <value type="int" value="90"/>
+        <value type="int" value="6"/>
+      </property>
+      <property name="background-alpha" type="uint" value="100"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="background-style" type="uint" value="2"/>
+      <property name="leave-opacity" type="uint" value="90"/>
+      <property name="span-monitors" type="bool" value="true"/>
+    </property>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=10;x=0;y=0"/>
+      <property name="size" type="uint" value="56"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="length" type="uint" value="10"/>
+      <property name="background-alpha" type="uint" value="100"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="autohide-behavior" type="uint" value="2"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-90" type="string" value="statusnotifier">
+      <property name="known-items" type="array">
+        <value type="string" value="flameshot"/>
+      </property>
+    </property>
+    <property name="plugin-3" type="string" value="tasklist">
+      <property name="flat-buttons" type="bool" value="true"/>
+      <property name="sort-order" type="uint" value="4"/>
+      <property name="window-scrolling" type="bool" value="false"/>
+      <property name="middle-click" type="uint" value="1"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager"/>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="plugin-7" type="string" value="showdesktop"/>
+      <property name="names-visible" type="array">
+        <value type="string" value="апплет networkmanager"/>
+        <value type="string" value="blueman-applet"/>
+      </property>
+      <property name="size-max" type="uint" value="24"/>
+      <property name="names-ordered" type="array">
+        <value type="string" value="notification-daemon"/>
+        <value type="string" value="discord"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="showdesktop"/>
+    <property name="plugin-20" type="string" value="directorymenu">
+      <property name="base-directory" type="string" value="/home/woomy"/>
+      <property name="icon-name" type="string" value="folder_home"/>
+      <property name="hidden-files" type="bool" value="false"/>
+      <property name="file-pattern" type="string" value="*"/>
+    </property>
+    <property name="plugin-21" type="string" value="directorymenu">
+      <property name="base-directory" type="string" value="/home/woomy/Home"/>
+      <property name="icon-name" type="string" value="folder_home"/>
+      <property name="hidden-files" type="bool" value="false"/>
+      <property name="file-pattern" type="string" value="*"/>
+    </property>
+    <property name="plugin-22" type="string" value="directorymenu">
+      <property name="base-directory" type="string" value="/home/woomy/Share"/>
+      <property name="icon-name" type="string" value="gnome-fs-share"/>
+      <property name="hidden-files" type="bool" value="false"/>
+      <property name="file-pattern" type="string" value="*"/>
+    </property>
+    <property name="plugin-23" type="string" value="directorymenu">
+      <property name="base-directory" type="string" value="/home/woomy/FTP"/>
+      <property name="icon-name" type="string" value="zen-icon"/>
+      <property name="hidden-files" type="bool" value="false"/>
+      <property name="file-pattern" type="string" value="*"/>
+    </property>
+    <property name="plugin-30" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="10000000030.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-31" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="10000000031.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-32" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="10000000032.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-33" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="10000000033.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-34" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="10000000034.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-35" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="10000000035.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-36" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="10000000036.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-37" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="10000000037.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-38" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="10000000038.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-39" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="10000000039.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-40" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="10000000040.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-41" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="10000000041.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-43" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="10000000043.desktop"/>
+      </property>
+    </property>
+    <property name="clipman" type="empty">
+      <property name="settings" type="empty">
+        <property name="add-primary-clipboard" type="bool" value="false"/>
+        <property name="history-ignore-primary-clipboard" type="bool" value="false"/>
+      </property>
+    </property>
+    <property name="plugin-1" type="string" value="whiskermenu"/>
+  </property>
+  <property name="configver" type="int" value="2"/>
+</channel>
