@@ -106,6 +106,7 @@ main() {
     cpcalculateconf
     copynuconf
     copybashconf
+    copyzshconf
     copyxfconf
     pushgit
 }
