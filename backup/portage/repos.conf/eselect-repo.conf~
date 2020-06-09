@@ -6,3 +6,7 @@ sync-type = git
 sync-uri = https://github.com/aaaaadrien/adrien-overlay.git
 
 
+[atom]
+location = /var/db/repos/atom
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/atom.git
