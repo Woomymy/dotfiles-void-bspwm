@@ -108,9 +108,10 @@ export LANG=fr_BE.UTF-8
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="vim ~/.zshrc"
 alias edituse="sudo vim /etc/portage/package.use/custom"
 alias yesupdate="yes | cl-update -o"
 alias optimake="make -j5"
+alias cls="clear"
+alias rsbuild="cargo build --release"
 
