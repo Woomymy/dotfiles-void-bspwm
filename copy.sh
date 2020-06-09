@@ -83,8 +83,8 @@ copyzshconf () {
     if [ -f "${HOME}/.zshrc" ]; then 
         cp "${HOME}/.zshrc" backup/zsh 
     fi
-    if [ -d "${HOME}/.oh-my-zsh" ]; then 
-        cp -r "${HOME}/.oh-my-zsh" backup/zsh/
+    if [ -d "${HOME}/.oh-my-zsh/themes" ]; then 
+        cp -r "${HOME}/.oh-my-zsh/themes" backup/zsh/
     fi
     echo "ZSH config saved!"
 }
