@@ -86,6 +86,7 @@ copyzshconf () {
     if [ -d "${HOME}/.oh-my-zsh" ]; then 
         cp -r "${HOME}/.oh-my-zsh" backup/zsh/
     fi
+    echo "ZSH config saved!"
 }
 copyxfconf () {
     echo "Copying XFCE config"
