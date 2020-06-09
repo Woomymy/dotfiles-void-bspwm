@@ -8,7 +8,6 @@ app-crypt/sbsigntools
 app-crypt/shim-signed
 app-editors/nano
 app-editors/vim
-app-editors/vscodium
 app-emulation/docker
 app-emulation/wine-vanilla
 app-misc/neofetch
