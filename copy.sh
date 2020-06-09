@@ -97,7 +97,7 @@ copyxfconf () {
 }
 pushgit() {
     git add *
-    git commit -m "Backup $(date)"
+    git commit -m "Backup $(date +"%A %d %B %R")"
     git push origin master
 }
 main() {
