@@ -3,12 +3,19 @@ app-admin/logrotate
 app-admin/sudo
 app-arch/file-roller
 app-arch/lbzip2
+app-arch/p7zip
 app-arch/pigz
+app-arch/rpm
 app-crypt/sbsigntools
 app-crypt/shim-signed
+app-editors/gedit
 app-editors/nano
 app-editors/vim
 app-emulation/docker
+app-emulation/virtualbox
+app-emulation/virtualbox-additions
+app-emulation/virtualbox-extpack-oracle
+app-emulation/virtualbox-modules
 app-emulation/wine-vanilla
 app-misc/neofetch
 app-misc/tmux
@@ -22,13 +29,13 @@ app-shells/gentoo-bashcomp
 app-shells/gentoo-zsh-completions
 app-shells/zsh
 app-shells/zsh-completions
-dev-java/openjdk-bin
-dev-java/openjdk-jre-bin
 dev-libs/boost
 dev-libs/icu
 dev-python/pip
 dev-util/android-tools
+dev-util/cargo-ebuild
 dev-vcs/git
+games-util/steam-launcher
 mail-client/thunderbird
 media-fonts/noto-emoji
 media-fonts/terminus-font
@@ -36,6 +43,7 @@ media-fonts/ttf-bitstream-vera
 media-gfx/flameshot
 media-gfx/gfxboot-themes-calculate
 media-gfx/shotwell
+media-libs/assimp
 media-sound/pavucontrol
 media-sound/sox
 media-video/vlc
@@ -50,6 +58,7 @@ sys-apps/calculate-toolkit
 sys-apps/calculate-utils:3
 sys-apps/ethtool
 sys-apps/ifplugd
+sys-apps/iucode_tool
 sys-apps/less
 sys-apps/openrc
 sys-apps/usbutils
@@ -62,6 +71,7 @@ sys-boot/plymouth
 sys-boot/plymouth-openrc-plugin
 sys-devel/gcc
 sys-firmware/b43-firmware
+sys-firmware/intel-microcode
 sys-firmware/ipw2100-firmware
 sys-firmware/ipw2200-firmware
 sys-firmware/nvidia-firmware
@@ -82,6 +92,7 @@ virtual/linux-sources
 virtual/logger
 www-client/chromium
 www-client/firefox
+x11-drivers/nvidia-drivers
 x11-misc/alacarte
 x11-misc/easystroke
 x11-misc/lightdm-gtk-greeter
