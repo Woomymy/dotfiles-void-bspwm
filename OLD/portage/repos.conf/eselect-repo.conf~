@@ -6,7 +6,8 @@ sync-type = git
 sync-uri = https://github.com/aaaaadrien/adrien-overlay.git
 
 
-[atom]
-location = /var/db/repos/atom
+
+[src_prepare-overlay]
+location = /var/db/repos/src_prepare-overlay
 sync-type = git
-sync-uri = https://github.com/gentoo-mirror/atom.git
+sync-uri = https://github.com/gentoo-mirror/src_prepare-overlay.git
