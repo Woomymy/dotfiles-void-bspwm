@@ -96,7 +96,7 @@ copyxfconf () {
     echo "XFCE config saved"
 }
 copykernelconf() {
-    zcat /proc/config.gz > kernel/.config
+    zcat /proc/config.gz > backup/kernel/.config
 }
 pushgit() {
     git add *
