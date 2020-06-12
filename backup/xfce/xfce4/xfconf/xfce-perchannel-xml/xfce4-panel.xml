@@ -36,6 +36,7 @@
   <property name="plugins" type="empty">
     <property name="plugin-90" type="string" value="statusnotifier">
       <property name="known-items" type="array">
+        <value type="string" value="steam"/>
         <value type="string" value="flameshot"/>
       </property>
     </property>

@@ -12,7 +12,7 @@ mkdir backup
 
 makedirs() {
     cd ./backup 
-    dirs=(portage calculate nu bash xfce zsh)
+    dirs=(portage calculate nu bash xfce zsh kernel)
     for direc in "${dirs[*]}" 
     do 
         mkdir ${direc}
@@ -95,6 +95,9 @@ copyxfconf () {
     fi
     echo "XFCE config saved"
 }
+copykernelconf() {
+    zcat /proc/config.gz > kernel/.config
+}
 pushgit() {
     git add *
     git commit -m "Backup $(date +"%A %d %B %R  %Y")"
@@ -109,6 +112,7 @@ main() {
     copybashconf
     copyzshconf
     copyxfconf
+    copykernelconf
     pushgit
 }
 main
