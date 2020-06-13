@@ -42,6 +42,7 @@ media-fonts/terminus-font
 media-fonts/ttf-bitstream-vera
 media-gfx/flameshot
 media-gfx/gfxboot-themes-calculate
+media-gfx/gimp
 media-gfx/shotwell
 media-libs/assimp
 media-sound/pavucontrol
@@ -57,6 +58,7 @@ net-wireless/wpa_supplicant
 sys-apps/calculate-toolkit
 sys-apps/calculate-utils:3
 sys-apps/ethtool
+sys-apps/flatpak
 sys-apps/ifplugd
 sys-apps/iucode_tool
 sys-apps/less
