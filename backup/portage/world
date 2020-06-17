@@ -57,6 +57,7 @@ net-wireless/wireless-tools
 net-wireless/wpa_supplicant
 sys-apps/calculate-toolkit
 sys-apps/calculate-utils:3
+sys-apps/etcher
 sys-apps/ethtool
 sys-apps/flatpak
 sys-apps/ifplugd
