@@ -106,8 +106,8 @@ pushgit() {
 main() {
     copydir
     makedirs
-    copyportage
-    cpcalculateconf
+    #copyportage
+    #cpcalculateconf
     copynuconf
     copybashconf
     copyzshconf
