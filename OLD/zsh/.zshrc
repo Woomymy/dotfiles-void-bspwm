@@ -1,37 +1,22 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/Developpement/powershell:$HOME/Developpement/vscode/bin:$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:$PATH
-autoload -Uz promptinit 
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-promptinit
-
-prompt pure
-# optionally define some options
-
-
-# change the path color
-zstyle :prompt:pure:path color green
-
-# change the color for both `prompt:success` and `prompt:error`
-zstyle ':prompt:pure:prompt:*' color cyan
-
-# turn on git stash status
-zstyle :prompt:pure:git:branch color magenta 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/woomy/.oh-my-zsh"
+fpath+="$HOME/.zsh/pure"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="pure"
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in $ZSH/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+ZSH_THEME=""
 
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-fpath+=$HOME/.zsh/pure
+# Pure options 
+export PURE_PROMPT_SYMBOL="❯"
+# Style
+
+zstyle :prompt:pure:path color green
+
+
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
@@ -81,16 +66,18 @@ fpath+=$HOME/.zsh/pure
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sudo)
+plugins=(git sudo node)
 
 source $ZSH/oh-my-zsh.sh
-
+autoload -U promptinit
+promptinit
+prompt pure
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-export LANG=fr_BE.UTF-8
+# export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -110,7 +97,3 @@ export LANG=fr_BE.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias edituse="sudo vim /etc/portage/package.use/custom"
-alias yesupdate="yes | cl-update -o"
-alias optimake="make -j5"
-alias cls="clear"
