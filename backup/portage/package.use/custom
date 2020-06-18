@@ -1,3 +1,0 @@
-# This file will be migrate to new installation
-x11-themes/arc-theme xfce
-sys-kernel/calculate-sources -minimal -vmlinuz fsync
