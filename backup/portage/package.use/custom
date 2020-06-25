@@ -1,0 +1,2 @@
+x11-themes/arc-theme xfce
+sys-kernel/calculate-sources fsync -vmlinuz -minimal

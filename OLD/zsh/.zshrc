@@ -3,19 +3,22 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/woomy/.oh-my-zsh"
-fpath+="$HOME/.zsh/pure"
-# Set name of the theme to load --- if set to "random", it will
+
+ #Set name of the theme to load --- if set to "random", it will
+fpath+=$HOME/.zsh/pure
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME=""
 
-# Pure options 
-export PURE_PROMPT_SYMBOL="❯"
-# Style
+# Set list of themes to pick from when loading at random
+# Setting this variable when ZSH_THEME=random will cause zsh to load
+# a theme from this variable instead of looking in $ZSH/themes/
+# If set to an empty array, this variable will have no effect.
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
-zstyle :prompt:pure:path color green
-
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
@@ -66,18 +69,24 @@ zstyle :prompt:pure:path color green
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sudo node)
+plugins=(git node sudo)
 
 source $ZSH/oh-my-zsh.sh
-autoload -U promptinit
-promptinit
+autoload -U promptinit; promptinit 
 prompt pure
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=fr_BE.UTF-8
+#Style
+
+zstyle :prompt:pure:path color green
+zstyle :prompt:pure:prompt:success color white  
+zstyle :prompt:pure:prompt:error color red
+
+
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
