@@ -1,3 +1,4 @@
+#!/bin/bash
 copydir(){
 if [ -d "./OLD" ]; then
     rm -r ./OLD 
@@ -75,7 +76,9 @@ copynuconf () {
 }
 copybashconf() {
     echo "Copying bash config..."
-    cp "${HOME}/.bashrc" backup/bash
+    if [ -f "${HOME}/.bashrc" ]; then
+	cp "${HOME}/.bashrc" backup/bash
+    fi
     echo "Bash config saved!"
 }
 copyzshconf () {
