@@ -26,3 +26,5 @@ MAKEOPTS="-j5"
 
 # Maximum size of the ccache.
 #CCACHE_SIZE="5G"
+INPUT_DEVICES="libinput keyboard mouse evdev"
+

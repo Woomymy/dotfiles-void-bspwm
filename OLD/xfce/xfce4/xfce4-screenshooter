@@ -1,9 +1,6 @@
 #------------------------------------------------------------------------------
 # Modified Calculate Utilities 3.6.8
 # Processed template files:
-# /var/db/repos/calculate/profiles/templates/3.6/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.10/.config/xfce4/helpers.rc
+# /var/db/repos/calculate/profiles/templates/3.6/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.10/.config/xfce4/xfce4-screenshooter
 #------------------------------------------------------------------------------
-
-WebBrowser=firefox
-FileManager=Thunar
-MailReader=sylpheed-claws
+screenshot_dir=file:/home/woomy/Pictures
