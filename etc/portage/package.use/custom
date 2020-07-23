@@ -1,0 +1,4 @@
+# This file will be migrate to new installation
+sys-kernel/calculate-sources muqss fsync uksm -minimal -vmlinuz
+x11-themes/arc-theme xfce
+x11-misc/polybar i3wm
