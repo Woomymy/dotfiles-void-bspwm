@@ -1,0 +1,5 @@
+media-gfx/flameshot ~amd64
+x11-themes/kvantum ~amd64
+media-fonts/twemoji-color-font ~amd64
+# required by cargo-ebuild (argument)
+=dev-util/cargo-ebuild-0.3.0 ~amd64
