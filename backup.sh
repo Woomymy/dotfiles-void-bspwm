@@ -70,8 +70,15 @@ if [[ -d "/${CH}" ]]; then
         cp /${CH}/* "${CH}/"
 fi
 echo "Copie de la configuration de Kvantum..."
-CH=".config/Kvantum/"
+CH="$CHOME/.config/Kvantum/"
 F="kvantum.kvconfig"
+if [[ -f "/${CH}/${F}" ]]; then
+        mkdir -p "${CH}"
+        cp "/${CH}/${F}" "${CH}/${F}"
+fi
+echo "Copie de la configuration de Nushell..."
+CH="$CHOME/.config/nu"
+F="config.toml"
 if [[ -f "/${CH}/${F}" ]]; then
         mkdir -p "${CH}"
         cp "/${CH}/${F}" "${CH}/${F}"
