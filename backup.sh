@@ -95,7 +95,7 @@ code --list-extensions >> "${CH}/extensions"
 
 echo "Copie des services OpenRC  customisés"
 CH="etc/init.d"
-F="lightdm-wallpapaer"
+F="lightdm-wallpaper"
 if [[ -f "/${CH}/${F}" ]]; then
         mkdir -p "${CH}"
         cp "/${CH}/${F}" "${CH}/${F}"
