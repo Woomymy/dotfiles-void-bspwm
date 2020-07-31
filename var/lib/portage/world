@@ -20,6 +20,7 @@ app-emulation/wine-mono
 app-emulation/wine-vanilla
 app-misc/figlet
 app-misc/neofetch
+app-misc/sl
 app-misc/tmux
 app-misc/xorg-meta
 app-office/libreoffice
@@ -61,6 +62,7 @@ media-sound/sox
 media-video/mplayer
 media-video/simplescreenrecorder
 media-video/vlc
+net-analyzer/speedtest-cli
 net-fs/nfs-utils
 net-fs/sshfs
 net-ftp/filezilla
@@ -70,6 +72,7 @@ net-libs/nodejs
 net-misc/dhcp
 net-misc/ntp
 net-misc/openssh
+net-misc/postman-bin
 net-misc/spice-gtk
 net-p2p/qbittorrent
 net-wireless/wireless-tools
