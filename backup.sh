@@ -139,6 +139,15 @@ if [[ -f "/${CH}/${F}" ]]; then
         cp "/${CH}/${F}" "${CH}/${F}"
 fi
 
+echo "Copie de la configuration d'OpenRC"
+CH="etc"
+F="rc.conf"
+if [[ -f "/${CH}/${F}" ]]; then
+        mkdir -p "${CH}"
+        cp "/${CH}/${F}" "${CH}/${F}"
+fi
+
+
 echo ""
 echo ""
 echo ""
