@@ -122,6 +122,11 @@ CH="etc/portage/make.${direc}"
         cp "/${CH}/${F}" "${CH}/${F}"
 fi
 done
+CH="etc/portage/repos.conf"
+if [[ -d "/${CH}" ]]; then
+        mkdir -p "${CH}"
+        cp /${CH}/* "${CH}/"
+fi
 
 echo "Copie du fichier \"World\""
 CH="var/lib/portage"
