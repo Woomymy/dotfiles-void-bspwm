@@ -20,6 +20,18 @@ if [[ -f "/${CH}/${F}" ]]; then
 	cp "/${CH}/${F}" "${CH}/${F}"
 fi
 
+echo "Copie de la configuration de Rofi..."
+CH="$CHOME/.config/rofi"
+F="theme.rasi"
+if [[ -f "/${CH}/${F}" ]]; then
+        mkdir -p "${CH}"
+        cp "/${CH}/${F}" "${CH}/${F}"
+fi
+F="config"
+if [[ -f "/${CH}/${F}" ]]; then
+        mkdir -p "${CH}"
+        cp "/${CH}/${F}" "${CH}/${F}"
+fi
 
 
 
