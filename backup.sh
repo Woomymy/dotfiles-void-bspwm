@@ -101,9 +101,17 @@ if [[ -f "/${CH}/${F}" ]]; then
         cp "/${CH}/${F}" "${CH}/${F}"
 fi
 
-
-
-
+echo "Copie de la configuration de Portage..."
+packagesdot=(accept_keywords mask use unmask license) 
+for direc in ${packagesdot[*]}
+do
+	CH="etc/portage/package.${direc}"
+	F="custom"
+	if [[ -f "/${CH}/${F}" ]]; then
+        mkdir -p "${CH}"
+        cp "/${CH}/${F}" "${CH}/${F}"
+fi
+done
 
 
 echo ""
