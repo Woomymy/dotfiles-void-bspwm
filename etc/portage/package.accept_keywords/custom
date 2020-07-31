@@ -2,3 +2,5 @@ media-gfx/flameshot ~amd64
 x11-themes/kvantum ~amd64
 media-fonts/twemoji-color-font ~amd64
 >=sys-apps/portage-2.3.103
+# required by postman-bin (argument)
+=net-misc/postman-bin-7.28.0 ~amd64
