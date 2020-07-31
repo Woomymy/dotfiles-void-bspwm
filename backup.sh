@@ -65,7 +65,7 @@ fi
 
 echo "Copie des scripts de $HOME/bin..."
 CH="$CHOME/bin"
-if [[ -f "/${CH}" ]]; then
+if [[ -d "/${CH}" ]]; then
         mkdir -p "${CH}"
         cp /${CH}/* "${CH}/"
 fi
