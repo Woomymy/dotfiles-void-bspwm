@@ -26,6 +26,6 @@ fi
 
 git add .
 git commit -m "Backup $(date +"%A %d %B %R  %Y") ${HOST}"
-if [[ "$(ping -c 1 github.com &> /dev/null )" ]]; then
+if [[ "$(ping -c 1 github.com  )" ]]; then
 	git push origin master
 fi
