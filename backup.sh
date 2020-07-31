@@ -156,6 +156,16 @@ if [[ -f "/${CH}/${F}" ]]; then
 fi
 
 
+echo "Copie de la configuration du Kernel"
+CH="usr/src/linux-$(uname -r)"
+F=".config"
+if [[ -f "/${CH}/${F}" ]]; then
+        mkdir -p "${CH}"
+        cp "/${CH}/${F}" "${CH}/${F}"
+fi
+
+
+
 echo ""
 echo ""
 echo ""
