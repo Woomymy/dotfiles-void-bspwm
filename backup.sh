@@ -139,6 +139,16 @@ if [[ -f "/${CH}/${F}" ]]; then
         cp "/${CH}/${F}" "${CH}/${F}"
 fi
 
+echo "Copie de la configuration de LightDM"
+CH="etc/lightdm"
+F="lightdm-gtk-greeter.conf.clt"
+
+if [[ -f "/${CH}/${F}" ]]; then
+        mkdir -p "${CH}"
+        cp "/${CH}/${F}" "${CH}/${F}"
+fi
+
+
 echo "Copie de la configuration d'OpenRC"
 CH="etc"
 F="rc.conf"
