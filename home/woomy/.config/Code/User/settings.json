@@ -1,0 +1,12 @@
+{
+    "editor.fontFamily": "Cascadia Code, IcoFont",
+    "editor.fontSize": 15,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Atom One Dark",
+    "window.zoomLevel": 2,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+}

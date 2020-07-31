@@ -83,8 +83,15 @@ if [[ -f "/${CH}/${F}" ]]; then
         mkdir -p "${CH}"
         cp "/${CH}/${F}" "${CH}/${F}"
 fi
-
-
+echo "Copie de la configuration de VScode..."
+CH="$CHOME/.config/Code/User/"
+F="settings.json"
+if [[ -f "/${CH}/${F}" ]]; then
+        mkdir -p "${CH}"
+        cp "/${CH}/${F}" "${CH}/${F}"
+fi
+#Juste pour vs
+code --list-extensions >> "${CH}/extensions"
 echo ""
 echo ""
 echo ""
