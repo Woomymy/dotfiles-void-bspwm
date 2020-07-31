@@ -170,6 +170,7 @@ echo ""
 echo ""
 echo ""
 git add .
+echo $HOST
 git commit -m "Backup $(date +"%A %d %B %R  %Y") ${HOST}"
 if [[ "$(ping -c 1 github.com  )" ]]; then
 	git push origin master
