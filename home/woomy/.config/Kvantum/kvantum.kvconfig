@@ -1,0 +1,6 @@
+[General]
+theme=KvArcDark
+
+[Applications]
+Default=cl-console-gui
+KvArcDark=clementine, virtualbox
