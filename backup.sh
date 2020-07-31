@@ -32,10 +32,19 @@ if [[ -f "/${CH}/${F}" ]]; then
         mkdir -p "${CH}"
         cp "/${CH}/${F}" "${CH}/${F}"
 fi
+echo "Copie de la configuration de polybar..."
+CH="$CHOME/.config/polybar"
+F="config.ini"
+if [[ -f "/${CH}/${F}" ]]; then
+        mkdir -p "${CH}"
+        cp "/${CH}/${F}" "${CH}/${F}"
+fi
 
 
 
-
+echo ""
+echo ""
+echo ""
 git add .
 git commit -m "Backup $(date +"%A %d %B %R  %Y") ${HOST}"
 if [[ "$(ping -c 1 github.com  )" ]]; then
