@@ -7,6 +7,9 @@ fi
 if [ -d "./etc" ]; then
 	rm -r "./etc"
 fi
+if [ -d "./var" ]; then
+	rm -r "./var"
+fi
 
 echo "==============="
 echo "Copie de la configuration..."
