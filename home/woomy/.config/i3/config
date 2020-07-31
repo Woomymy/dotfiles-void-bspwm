@@ -17,7 +17,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 # Kill the focused window
 bindsym $mod+Shift+a kill
 # Starts Rofi
-bindsym $mod+d exec "bash ${HOME}/bin/launch-rofi.sh"
+bindsym $mod+d exec "bash ${HOME}/bin/applaunch/launch-rofi.sh"
 # Changes focus
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
@@ -129,6 +129,6 @@ gaps outer 4
 for_window [class=".*"] border pixel 1
 
 #Startup scripts
-exec --no-startup-id bash "$HOME/bin/wallpaper.sh" # Starts random wallpapers
+exec --no-startup-id bash "$HOME/bin/theming/wallpaper.sh" # Starts random wallpapers
 
 exec --no-startup-id polybar -c "$HOME/.config/polybar/config.ini" top # Starts polybar
