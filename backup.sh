@@ -1,8 +1,13 @@
 #!/bin/bash
 CHOME="home/$USER"
 clear
-rm -r ./home
-rm -r ./etc
+if [ -d "./home" ]; then
+	rm -r "./home"
+fi
+if [ -d "./etc" ]; then
+	rm -r "./etc"
+fi
+
 echo "==============="
 echo "Copie de la configuration..."
 echo "==============="
@@ -21,6 +26,6 @@ fi
 
 git add .
 git commit -m "Backup $(date +"%A %d %B %R  %Y") ${HOST}"
-if [[ "$(ping -c 1 github.com)" ]]; then
+if [[ "$(ping -c 1 githuzarpçueaopruab.com)" ]]; then
 	git push origin master
 fi
