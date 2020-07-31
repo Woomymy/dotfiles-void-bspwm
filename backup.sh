@@ -40,6 +40,21 @@ if [[ -f "/${CH}/${F}" ]]; then
         cp "/${CH}/${F}" "${CH}/${F}"
 fi
 
+echo "Copie de la configuration de ZSH..."
+CH="$CHOME"
+F=".zshrc"
+if [[ -f "/${CH}/${F}" ]]; then
+        mkdir -p "${CH}"
+        cp "/${CH}/${F}" "${CH}/${F}"
+fi
+
+echo "Copie de la configuration de P10K..."
+CH="$CHOME"
+F=".p10k.zsh"
+if [[ -f "/${CH}/${F}" ]]; then
+        mkdir -p "${CH}"
+        cp "/${CH}/${F}" "${CH}/${F}"
+fi
 
 
 echo ""
