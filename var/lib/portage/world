@@ -83,6 +83,7 @@ sys-apps/less
 sys-apps/lsd
 sys-apps/openrc
 sys-apps/usbutils
+sys-auth/consolekit
 sys-auth/pam_update
 sys-block/gparted
 sys-boot/efibootmgr
@@ -120,6 +121,7 @@ x11-misc/polybar
 x11-misc/redshift
 x11-misc/rofi
 x11-misc/xclip
+x11-terms/xfce4-terminal
 x11-themes/QGnomePlatform
 x11-themes/adwaita-qt
 x11-themes/arc-theme

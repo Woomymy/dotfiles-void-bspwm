@@ -70,7 +70,7 @@ echo "Copie des scripts de $HOME/bin..."
 CH="$CHOME/bin"
 if [[ -d "/${CH}" ]]; then
         mkdir -p "${CH}"
-        cp /${CH}/* "${CH}/"
+        cp -r /${CH}/* "${CH}/"
 fi
 echo "Copie de la configuration de Kvantum..."
 CH="$CHOME/.config/Kvantum/"
