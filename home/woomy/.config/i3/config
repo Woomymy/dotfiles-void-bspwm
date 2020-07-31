@@ -118,6 +118,9 @@ mode "apps" {
 	bindsym Escape mode "default"
 }
 bindsym $mod+Shift+j mode "apps"
+#FlameShot
+bindsym $mod+Print exec flameshot gui
+
 # I3-gaps config
 gaps inner 10 
 gaps outer 4
