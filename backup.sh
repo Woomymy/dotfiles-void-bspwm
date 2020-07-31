@@ -69,6 +69,13 @@ if [[ -d "/${CH}" ]]; then
         mkdir -p "${CH}"
         cp /${CH}/* "${CH}/"
 fi
+echo "Copie de la configuration de Kvantum..."
+CH=".config/Kvantum/"
+F="kvantum.kvconfig"
+if [[ -f "/${CH}/${F}" ]]; then
+        mkdir -p "${CH}"
+        cp "/${CH}/${F}" "${CH}/${F}"
+fi
 
 
 echo ""
