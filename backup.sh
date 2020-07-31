@@ -55,6 +55,20 @@ if [[ -f "/${CH}/${F}" ]]; then
         mkdir -p "${CH}"
         cp "/${CH}/${F}" "${CH}/${F}"
 fi
+echo "Copie de la configuration de Calculate..."
+CH="$CHOME/.calculate"
+F="ini.env"
+if [[ -f "/${CH}/${F}" ]]; then
+        mkdir -p "${CH}"
+        cp "/${CH}/${F}" "${CH}/${F}"
+fi
+
+echo "Copie des scripts de $HOME/bin..."
+CH="$CHOME/bin"
+if [[ -f "/${CH}" ]]; then
+        mkdir -p "${CH}"
+        cp /${CH}/* "${CH}/"
+fi
 
 
 echo ""
