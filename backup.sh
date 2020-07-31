@@ -169,6 +169,7 @@ fi
 echo ""
 echo ""
 echo ""
+git pull
 git add .
 git commit -m "Backup $(date +"%A %d %B %R  %Y")"
 if [[ "$(ping -c 1 github.com  )" ]]; then
