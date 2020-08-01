@@ -83,3 +83,5 @@ RCH="/home/${USERN}/.config/${direc}/"
 	fi
 	cp $CH/* "${RCH}"
 done
+
+echo "Installation des rpms..."
