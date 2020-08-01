@@ -71,9 +71,15 @@ cp "${CH}/${F}" "${RCH}/${F}"
 echo "Copie des binaires utiles..."
 mkdir -p "/home/${USERN}/bin"
 cp home/woomy/* "/home/${USERN}/bin"
-echo "Copie de la configuration de Calculate Linux..."
-CH="home/woomy/.calculate"
-RCH="/home/${USERN}/.calculate"
-F="ini.env"
-cp "${CH}/${F}" "${RCH}/${F}"
 
+echo "Copie de la configuration utilisateur..."
+justcopy=(i3 polybar Kvantum nu rofi)
+for direc in "${justcopy[*]}"
+do
+CH="home/woomy/.config/${direc}"
+RCH="/home/${USERN}/.config/${direc}"
+	if [ ! -d "${RCH}" ]; then
+		mkdir -p "${RCH}"
+	fi
+
+done
