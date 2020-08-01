@@ -22,7 +22,7 @@ do
         cp "${CH}/${F}" "/${CH}/${F}"
 done
 makedot=(conf)
-for direc in ${packagedot[*]}
+for direc in ${makedot[*]}
 do
 	CH="etc/portage/make.${direc}"
         F="custom"
@@ -48,4 +48,10 @@ if [ ! -d "/home/${USERN}" ]; then
 	echo "Nom d'utilisateur invalide !"
 	exit 1
 fi
+reconfmessages=("Le fichier /etc/conf.d/lightdm-wallpaper doit être configuré!") # Reconf messages printed at the of script
+CH="etc/init.d"
+F="lightdm-wallpaper"
+cp "${CH}/${F}" "/${CH}/${F}"
 
+CH="etc/conf.d"
+cp "${CH}/${F}" "/${CH}/${F}"
