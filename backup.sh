@@ -10,7 +10,9 @@ fi
 if [ -d "./var" ]; then
 	rm -r "./var"
 fi
-
+if [ -d "./usr" ]; then
+	rm -r "./usr"
+fi
 echo "==============="
 echo "Copie de la configuration..."
 echo "==============="
@@ -174,7 +176,7 @@ fi
 
 
 echo "Copie de la configuration du Kernel"
-CH="usr/src/linux-$(uname -r)"
+CH="usr/src/linux"
 F=".config"
 if [[ -f "/${CH}/${F}" ]]; then
         mkdir -p "${CH}"

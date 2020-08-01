@@ -36,3 +36,16 @@ updatesys() {
 	yes | cl-update -o --with-bdeps=yes
 }
 updatesys
+echo "Applications installées ! "
+echo "Configuration du système..."
+if [ -d "/home/woomy" ]; then
+	USERN="woomy"
+else 
+	echo "Quel est votre nom d'utilisteur?"
+	read USERN
+fi
+if [ ! -d "/home/${USERN}" ]; then
+	echo "Nom d'utilisateur invalide !"
+	exit 1
+fi
+
