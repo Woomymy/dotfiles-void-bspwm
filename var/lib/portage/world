@@ -68,7 +68,6 @@ net-libs/nodejs
 net-misc/dhcp
 net-misc/ntp
 net-misc/openssh
-net-misc/postman-bin
 net-misc/spice-gtk
 net-p2p/qbittorrent
 net-wireless/wireless-tools
@@ -84,7 +83,7 @@ sys-apps/openrc
 sys-apps/usbutils
 sys-auth/consolekit
 sys-auth/pam_update
-sys-block/gparted
+sys-block/partitionmanager
 sys-boot/efibootmgr
 sys-boot/gnu-efi
 sys-boot/grub:2
@@ -99,7 +98,6 @@ sys-fs/e2fsprogs
 sys-fs/ecryptfs-utils
 sys-fs/eudev
 sys-fs/ntfs3g
-sys-fs/reiserfsprogs
 sys-fs/xfsprogs
 sys-kernel/calculate-sources
 sys-kernel/dracut
@@ -109,6 +107,8 @@ virtual/cron
 virtual/linux-sources
 virtual/logger
 www-client/firefox
+www-client/vivaldi
+www-misc/get-ffmpeg-vivaldi
 x11-drivers/nvidia-drivers
 x11-misc/alacarte
 x11-misc/dmenu
