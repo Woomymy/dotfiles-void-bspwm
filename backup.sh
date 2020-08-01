@@ -96,13 +96,20 @@ fi
 #Juste pour vs
 code --list-extensions >> "${CH}/extensions"
 
-echo "Copie des services OpenRC  customisés"
+echo "Copie des services OpenRC  customisés et de leur configuration..."
 CH="etc/init.d"
 F="lightdm-wallpaper"
 if [[ -f "/${CH}/${F}" ]]; then
         mkdir -p "${CH}"
         cp "/${CH}/${F}" "${CH}/${F}"
 fi
+CH="etc/conf.d"
+F="lightdm-wallpaper"
+if [[ -f "/${CH}/${F}" ]]; then
+        mkdir -p "${CH}"
+        cp "/${CH}/${F}" "${CH}/${F}"
+fi
+
 
 echo "Copie de la configuration de Portage..."
 packagesdot=(accept_keywords mask use unmask license) 
