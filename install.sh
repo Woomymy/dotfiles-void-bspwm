@@ -77,9 +77,9 @@ justcopy=(i3 polybar Kvantum nu rofi)
 for direc in "${justcopy[*]}"
 do
 CH="home/woomy/.config/${direc}"
-RCH="/home/${USERN}/.config/${direc}"
+RCH="/home/${USERN}/.config/${direc}/"
 	if [ ! -d "${RCH}" ]; then
 		mkdir -p "${RCH}"
 	fi
-
+	cp $CH/* "${RCH}"
 done
