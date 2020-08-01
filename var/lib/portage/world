@@ -39,6 +39,7 @@ dev-util/android-tools
 dev-vcs/git
 games-action/supertuxkart
 games-arcade/supertux
+gnome-extra/polkit-gnome
 kde-plasma/breeze-gtk
 lxde-base/lxappearance
 mate-extra/mate-calc
@@ -75,6 +76,7 @@ net-wireless/wpa_supplicant
 sys-apps/calculate-toolkit
 sys-apps/calculate-utils:3
 sys-apps/ethtool
+sys-apps/exa
 sys-apps/ifplugd
 sys-apps/inxi
 sys-apps/less
@@ -88,7 +90,6 @@ sys-boot/efibootmgr
 sys-boot/gnu-efi
 sys-boot/grub:2
 sys-boot/os-prober
-sys-firmware/b43-firmware
 sys-firmware/ipw2100-firmware
 sys-firmware/ipw2200-firmware
 sys-firmware/nvidia-firmware
@@ -101,14 +102,13 @@ sys-fs/ntfs3g
 sys-fs/xfsprogs
 sys-kernel/calculate-sources
 sys-kernel/dracut
+sys-process/cpu-x
 sys-process/htop
 sys-process/lsof
 virtual/cron
 virtual/linux-sources
 virtual/logger
 www-client/firefox
-www-client/vivaldi
-www-misc/get-ffmpeg-vivaldi
 x11-drivers/nvidia-drivers
 x11-misc/alacarte
 x11-misc/dmenu
@@ -121,6 +121,7 @@ x11-misc/rofi
 x11-misc/xclip
 x11-misc/xdg-user-dirs
 x11-misc/xdg-user-dirs-gtk
+x11-terms/alacritty
 x11-terms/xfce4-terminal
 x11-themes/QGnomePlatform
 x11-themes/adwaita-qt
@@ -130,6 +131,5 @@ x11-themes/papirus-icon-theme
 x11-themes/papirus-libreoffice-theme
 x11-wm/i3-gaps
 xfce-base/thunar
-xfce-base/xfce4-meta
 xfce-extra/thunar-archive-plugin
 xfce-extra/thunar-volman
