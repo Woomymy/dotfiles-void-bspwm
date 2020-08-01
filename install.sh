@@ -56,4 +56,7 @@ cp "${CH}/${F}" "/${CH}/${F}"
 CH="etc/conf.d"
 cp "${CH}/${F}" "/${CH}/${F}"
 
-
+echo "Copie de la configuration du Kernel..."
+CH="usr/src/linux"
+F=".config"
+cp "${CH}/${F}" "/${CH}/${F}"
