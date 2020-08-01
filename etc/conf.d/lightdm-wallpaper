@@ -1,0 +1,4 @@
+# Wallpapers directory
+WALLDIR="/home/woomy/Pictures/wallpapers"
+# LightDM wallpaper path
+WALLPATH="/home/woomy/lightdm-wallpaper.jpg"
