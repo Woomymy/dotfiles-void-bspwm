@@ -23,16 +23,11 @@ do
         CH="etc/portage/package.${direc}"
         F="custom"
 	if [ -f "${CH}/${F}" ]; then
-	cp "${CH}/${F}" "/${CH}/${F}"
+		mkdir -p "/${CH}"
+		cp "${CH}/${F}" "/${CH}/${F}"
 	fi
 done
-makedot=(conf)
-for direc in ${makedot[*]}
-do
-	CH="etc/portage/make.${direc}"
-        F="custom"
-        cp "${CH}/${F}" "/${CH}/${F}"
-done
+
 CH="var/lib/portage"
 F="world"
 cp "${CH}/${F}" "/${CH}/${F}"
@@ -75,7 +70,7 @@ F=".p10k.zsh"
 cp "${CH}/${F}" "${RCH}/${F}"
 echo "Copie des binaires utiles..."
 mkdir -p "/home/${USERN}/bin"
-cp home/woomy/* "/home/${USERN}/bin"
+cp -r home/woomy/bin/* "/home/${USERN}/bin"
 
 echo "Copie de la configuration utilisateur..."
 justcopy=(i3 polybar Kvantum nu rofi)
@@ -86,7 +81,7 @@ RCH="/home/${USERN}/.config/${direc}/"
 	if [ ! -d "${RCH}" ]; then
 		mkdir -p "${RCH}"
 	fi
-	cp $CH/* "${RCH}"
+	cp -r $CH/* "${RCH}"
 done
 
 echo "Installation des rpms..."
