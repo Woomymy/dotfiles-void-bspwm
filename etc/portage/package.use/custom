@@ -2,6 +2,6 @@
 sys-kernel/calculate-sources muqss fsync uksm -minimal -vmlinuz
 x11-themes/arc-theme xfce
 x11-misc/polybar i3wm
-net-misc/networkmanager -wext -wifi -bluetooth -ppp
+net-misc/networkmanager -modemmanager -wext -wifi -bluetooth -ppp
 media-sound/clementine -dropbox -googledrive -box -ipod
 dev-libs/libgdata -gnome-online-accounts
