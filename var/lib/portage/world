@@ -59,7 +59,6 @@ media-sound/sox
 media-video/simplescreenrecorder
 media-video/vlc
 net-analyzer/speedtest-cli
-net-fs/nfs-utils
 net-fs/sshfs
 net-ftp/filezilla
 net-im/discord-bin
@@ -82,6 +81,7 @@ sys-apps/openrc
 sys-apps/usbutils
 sys-auth/consolekit
 sys-auth/pam_update
+sys-block/gparted
 sys-boot/efibootmgr
 sys-boot/gnu-efi
 sys-boot/grub:2
@@ -93,6 +93,7 @@ sys-fs/e2fsprogs
 sys-fs/ecryptfs-utils
 sys-fs/eudev
 sys-fs/ntfs3g
+sys-fs/squashfs-tools
 sys-fs/xfsprogs
 sys-kernel/calculate-sources
 sys-kernel/dracut
