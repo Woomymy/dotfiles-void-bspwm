@@ -93,6 +93,15 @@ done
 echo "Installation des rpms..."
 if [ "${INSTALLXMIND}" == 1 ]; then
 	echo "Installation de Xmind..."
-	
+	mkdir tmp
+	cd tmp
+	wget https://xmind.net/zen/download -O xmind.rpm
+	rpm --install xmind.rpm --nodeps
+	if [ "$?" == 0 ]; then
+		echo "Xmind installé!"
+	else
+		reconfmessages+=("Erreur lors de l'installation de Xmind")
+	fi
 fi
+
 
