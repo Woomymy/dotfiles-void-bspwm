@@ -26,7 +26,9 @@ for direc in ${packagesdot[*]}
 do
         CH="etc/portage/package.${direc}"
         F="custom"
-        cp "${CH}/${F}" "/${CH}/${F}"
+	if [ -f "${CH}/${F}" ]; then
+	cp "${CH}/${F}" "/${CH}/${F}"
+	fi
 done
 makedot=(conf)
 for direc in ${makedot[*]}
