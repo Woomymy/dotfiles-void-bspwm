@@ -33,6 +33,7 @@ app-shells/gentoo-bashcomp
 app-shells/gentoo-zsh-completions
 app-shells/zsh
 app-shells/zsh-completions
+app-vim/rust-vim
 dev-java/icedtea-bin
 dev-python/pip
 dev-util/android-tools
