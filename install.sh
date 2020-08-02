@@ -15,11 +15,7 @@ else
 	exit 1
 fi
 # Install portage repos and perform update with new world
-repos=(etc/portage/repos.conf/*.conf)
-for repo in "${repos[*]}"
-do
-	cp "${repo}" /etc/portage/repos.conf
-done
+cp etc/portage/repos.conf/* /etc/portage/repos.conf
 echo "Copie de la configuration de Portage..."
 packagesdot=(accept_keywords mask use unmask license)
 for direc in ${packagesdot[*]}
