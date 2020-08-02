@@ -91,8 +91,6 @@ sys-boot/efibootmgr
 sys-boot/gnu-efi
 sys-boot/grub:2
 sys-boot/os-prober
-sys-firmware/ipw2100-firmware
-sys-firmware/ipw2200-firmware
 sys-firmware/nvidia-firmware
 sys-fs/btrfs-progs
 sys-fs/cryptsetup
