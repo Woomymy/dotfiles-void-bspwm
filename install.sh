@@ -106,5 +106,10 @@ if [ "${INSTALLXMIND}" == 1 ]; then
 	rm -rf "./tmp"
 fi
 echo "Installation de Visual Studio Code..."
-
+mkdir tmp
+cd tmp
+wget "https://go.microsoft.com/fwlink/?LinkID=760867" -O code.rpm
+rpm --install code.rpm --nodeps
+cd ..
+rm -rf tmp
 
