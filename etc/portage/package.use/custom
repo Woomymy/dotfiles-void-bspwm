@@ -1,9 +1,11 @@
 # This file will be migrate to new installation
 sys-kernel/calculate-sources muqss fsync uksm -minimal -vmlinuz
-x11-themes/arc-theme xfce
+x11-themes/arc-theme -gtk2
 x11-misc/polybar i3wm
 net-misc/networkmanager -modemmanager -wext -wifi -bluetooth -ppp
 media-sound/clementine -dropbox -googledrive -box -ipod
 dev-libs/libgdata -gnome-online-accounts
 x11-misc/lightdm -gnome
+sys-apps/calculate-utils -install
+sys-block/gparted -dmraid -mdadm -btrfs -reiserfs 
 gnome-base/gvfs -samba -ios -nfs
