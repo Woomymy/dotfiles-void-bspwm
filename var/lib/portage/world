@@ -41,7 +41,6 @@ dev-vcs/git
 games-action/supertuxkart
 games-arcade/supertux
 gnome-extra/polkit-gnome
-kde-plasma/breeze-gtk
 lxde-base/lxappearance
 mate-extra/mate-calc
 media-fonts/cascadia-code
@@ -54,7 +53,6 @@ media-gfx/gfxboot-themes-calculate
 media-gfx/gnome-font-viewer
 media-gfx/inkscape
 media-gfx/lightdm-themes-calculate
-media-gfx/shotwell
 media-sound/clementine
 media-sound/easytag
 media-sound/lxmusic
@@ -85,7 +83,6 @@ sys-apps/openrc
 sys-apps/usbutils
 sys-auth/consolekit
 sys-auth/pam_update
-sys-block/partitionmanager
 sys-boot/efibootmgr
 sys-boot/gnu-efi
 sys-boot/grub:2
@@ -107,7 +104,7 @@ virtual/cron
 virtual/linux-sources
 virtual/logger
 www-client/firefox
-
+x11-drivers/nvidia-drivers
 x11-misc/alacarte
 x11-misc/dmenu
 x11-misc/i3lock
