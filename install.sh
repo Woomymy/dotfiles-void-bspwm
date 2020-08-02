@@ -6,6 +6,7 @@ if [ ! -f "/usr/bin/cl-update" ]; then
 fi
 if [ $UID != 0  ]; then
 	echo "Ce script à besoin d'être exécuter en tant que root!"
+	exit 1
 fi
 if [ "$(command -v git)" ]; then
 	git pull
@@ -112,4 +113,11 @@ wget "https://go.microsoft.com/fwlink/?LinkID=760867" -O code.rpm
 rpm --install code.rpm --nodeps
 cd ..
 rm -rf tmp
+echo "Installation des Extensions de Visual Studio Code..."
 cat "home/woomy/.config/Code/User/extensions" | xargs -n 1 code --install-extension
+echo "Fini!"
+for message in "${reconfmessages[*]}"
+do
+	echo "${message}\n"
+done
+
