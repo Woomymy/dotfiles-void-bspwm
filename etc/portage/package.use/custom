@@ -4,3 +4,4 @@ x11-themes/arc-theme xfce
 x11-misc/polybar i3wm
 net-misc/networkmanager -wext -wifi -bluetooth -ppp
 media-sound/clementine -dropbox -googledrive -box -ipod
+dev-libs/libgdata -gnome-online-accounts
