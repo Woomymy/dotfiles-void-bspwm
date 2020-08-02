@@ -6,7 +6,12 @@ fi
 if [ $UID != 0  ]; then
 	echo "Ce script à besoin d'être exécuter en tant que root!"
 fi
-git pull
+if [ "$(command -v git)" ]; then
+	git pull
+else 
+	echo "Ce script à besoin de git!"
+	exit 1
+fi
 # Install portage repos and perform update with new world
 repos=(etc/portage/repos.conf/*.conf)
 for repo in "${repos[*]}"
@@ -85,3 +90,5 @@ RCH="/home/${USERN}/.config/${direc}/"
 done
 
 echo "Installation des rpms..."
+
+
