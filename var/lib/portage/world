@@ -50,7 +50,6 @@ media-fonts/ttf-bitstream-vera
 media-fonts/twemoji-color-font
 media-gfx/flameshot
 media-gfx/gfxboot-themes-calculate
-media-gfx/gnome-font-viewer
 media-gfx/inkscape
 media-gfx/lightdm-themes-calculate
 media-sound/clementine
@@ -118,7 +117,6 @@ x11-misc/xdg-user-dirs
 x11-misc/xdg-user-dirs-gtk
 x11-terms/alacritty
 x11-terms/xfce4-terminal
-x11-themes/QGnomePlatform
 x11-themes/adwaita-qt
 x11-themes/arc-theme
 x11-themes/kvantum
