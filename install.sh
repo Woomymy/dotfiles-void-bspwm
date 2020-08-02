@@ -91,6 +91,8 @@ RCH="/home/${USERN}/.config/${direc}/"
 done
 
 echo "Installation des rpms..."
-if [ "" ]
-echo "Installation de Xmind..."
+if [ "${INSTALLXMIND}" == 1 ]; then
+	echo "Installation de Xmind..."
+	
+fi
 
