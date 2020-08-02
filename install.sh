@@ -1,4 +1,5 @@
 #! /bin/bash
+INSTALLXMIND=1
 if [ ! -f "/usr/bin/cl-update" ]; then
 	echo "Ce système n'est pas une Calculate Linux!"
 	exit 1 
@@ -90,5 +91,6 @@ RCH="/home/${USERN}/.config/${direc}/"
 done
 
 echo "Installation des rpms..."
-
+if [ "" ]
+echo "Installation de Xmind..."
 
