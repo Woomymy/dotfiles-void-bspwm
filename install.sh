@@ -107,7 +107,7 @@ rpm --install code.rpm --nodeps
 cd ..
 rm -rf tmp
 echo "Installation des Extensions de Visual Studio Code..."
-cat "home/woomy/.config/Code/User/extensions" | xargs -n 1 code --install-extension
+cat "home/woomy/.config/Code/User/extensions" | xargs -n 1 code --install-extension --user-data-dir /home/${USERN}
 echo "Fini!"
 for message in "${reconfmessages[*]}"
 do
