@@ -55,7 +55,7 @@ if [ ! -d "/home/${USERN}" ]; then
 	echo "Nom d'utilisateur invalide !"
 	exit 1
 fi
-reconfmessages=("Le fichier /etc/conf.d/lightdm-wallpaper doit être configuré!") # Reconf messages printed at the of script
+reconfmessages=("Le fichier /etc/conf.d/lightdm-wallpaper doit être configuré et ajouté au démarrage!") # Reconf messages printed at the of script
 CH="etc/init.d"
 F="lightdm-wallpaper"
 cp "${CH}/${F}" "/${CH}/${F}"
