@@ -107,7 +107,7 @@ virtual/cron
 virtual/linux-sources
 virtual/logger
 www-client/firefox
-x11-drivers/nvidia-drivers
+
 x11-misc/alacarte
 x11-misc/dmenu
 x11-misc/i3lock
