@@ -102,6 +102,9 @@ if [ "${INSTALLXMIND}" == 1 ]; then
 	else
 		reconfmessages+=("Erreur lors de l'installation de Xmind")
 	fi
+	cd ..
+	rm -rf "./tmp"
 fi
+echo "Installation de Visual Studio Code..."
 
 
