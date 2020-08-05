@@ -15,7 +15,8 @@ location = /var/db/repos/adrien-overlay
 sync-type = git
 sync-uri = https://github.com/aaaaadrien/adrien-overlay.git
 
-[nix-guix]
-location = /var/db/repos/nix-guix
+
+[woomy-overlay]
+location = /var/db/repos/woomy-overlay
 sync-type = git
-sync-uri = https://github.com/gentoo-mirror/nix-guix.git
+sync-uri = https://github.com/Woomy4680-exe/woomy-overlay.git

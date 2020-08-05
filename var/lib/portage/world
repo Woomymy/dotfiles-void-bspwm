@@ -51,7 +51,6 @@ media-fonts/twemoji-color-font
 media-gfx/flameshot
 media-gfx/gfxboot-themes-calculate
 media-gfx/inkscape
-media-gfx/lightdm-themes-calculate
 media-sound/clementine
 media-sound/easytag
 media-sound/lxmusic
@@ -59,6 +58,7 @@ media-sound/sox
 media-video/simplescreenrecorder
 media-video/vlc
 net-analyzer/speedtest-cli
+net-analyzer/traceroute
 net-fs/sshfs
 net-ftp/filezilla
 net-im/discord-bin
@@ -69,7 +69,6 @@ net-misc/ntp
 net-misc/openssh
 net-misc/spice-gtk
 net-p2p/qbittorrent
-net-wireless/wireless-tools
 net-wireless/wpa_supplicant
 sys-apps/calculate-toolkit
 sys-apps/calculate-utils:3
@@ -78,6 +77,7 @@ sys-apps/ifplugd
 sys-apps/inxi
 sys-apps/less
 sys-apps/openrc
+sys-apps/portage
 sys-apps/usbutils
 sys-auth/consolekit
 sys-auth/pam_update
@@ -103,6 +103,7 @@ sys-process/lsof
 virtual/cron
 virtual/linux-sources
 virtual/logger
+www-client/elinks
 www-client/firefox
 x11-drivers/nvidia-drivers
 x11-misc/alacarte
