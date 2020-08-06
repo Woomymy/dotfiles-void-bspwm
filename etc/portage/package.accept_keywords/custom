@@ -1,5 +1,7 @@
 media-gfx/flameshot ~amd64
 x11-themes/kvantum ~amd64
 media-fonts/twemoji-color-font ~amd64
+app-editors/vscode-bin ~amd64
+games-action/multimc5 ~amd64
 # PostMan
 #=net-misc/postman-bin-7.28.0 ~amd64
