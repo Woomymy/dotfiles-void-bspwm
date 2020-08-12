@@ -5,3 +5,12 @@ app-editors/vscode-bin ~amd64
 games-action/multimc5 ~amd64
 # PostMan
 #=net-misc/postman-bin-7.28.0 ~amd64
+net-im/discord-bin ~amd64
+# required by xmindzen (argument)
+=app-misc/xmindzen-202008051959 ~amd64
+# required by mint-themes (argument)
+>=x11-themes/mint-themes-1.8.0 ~amd64
+# required by net-im/gtkwhats (argument)
+=net-im/gtkwhats-1.0 ~amd64
+# required by whatsapp-for-linux (argument)
+=net-im/whatsapp-for-linux-1.0.8 ~amd64

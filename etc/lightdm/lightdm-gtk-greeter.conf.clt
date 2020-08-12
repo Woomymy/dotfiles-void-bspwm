@@ -71,7 +71,7 @@
 #screensaver-timeout=
 background=/home/woomy/lightdm-wallpaper.jpg
 logo=/usr/share/wallpapers/calculate-logo.png
-theme-name=Mint-Y-Dark-Aqua
+theme-name=Arc-Dark
 icon-theme-name=Papirus
 cursor-theme-name="Material Dark Cursors"
 font-name=Cascadia Code
