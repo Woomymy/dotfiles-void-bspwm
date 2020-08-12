@@ -1,4 +1,5 @@
 app-admin/eclean-kernel
+app-admin/keepassxc
 app-admin/logrotate
 app-admin/sudo
 app-arch/dpkg
@@ -38,6 +39,7 @@ app-text/tree
 app-vim/rust-vim
 dev-java/icedtea-bin
 dev-python/pip
+dev-ruby/sass
 dev-util/android-tools
 dev-vcs/git
 games-action/multimc5
@@ -65,13 +67,16 @@ net-analyzer/traceroute
 net-fs/sshfs
 net-ftp/filezilla
 net-im/discord-bin
+net-im/riot-desktop
 net-im/telegram-desktop-bin
+net-im/whatsapp-for-linux
 net-irc/hexchat
 net-libs/nodejs
 net-misc/dhcp
 net-misc/ntp
 net-misc/openssh
 net-misc/spice-gtk
+net-misc/x11-ssh-askpass
 net-p2p/qbittorrent
 net-wireless/wpa_supplicant
 sys-apps/calculate-toolkit
@@ -125,6 +130,7 @@ x11-terms/xfce4-terminal
 x11-themes/adwaita-qt
 x11-themes/arc-theme
 x11-themes/kvantum
+x11-themes/mint-themes
 x11-themes/papirus-icon-theme
 x11-themes/papirus-libreoffice-theme
 x11-wm/i3-gaps

@@ -4,11 +4,13 @@ bungcip.better-toml
 dbaeumer.vscode-eslint
 ecmel.vscode-html-css
 formulahendry.code-runner
+gencer.html-slim-scss-css-class-completion
 icrawl.discord-vscode
 ms-python.python
 ms-vscode.cpptools
 panicbit.cargo
 PKief.material-icon-theme
+ritwickdey.LiveServer
 Rubymaniac.vscode-paste-and-indent
 rust-lang.rust
 VisualStudioExptTeam.vscodeintellicode
