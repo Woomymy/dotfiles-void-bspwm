@@ -130,6 +130,6 @@ for_window [class=".*"] border pixel 1
 
 #Startup scripts
 exec --no-startup-id bash "$HOME/bin/theming/wallpaper.sh" # Starts random wallpapers
-exec --no-startup-id /usr/libexec/polkit-gnome-authentication-agent-1 &
+exec --no-startup-id /usr/libexec/polkit-mate-authentication-agent-1 &
 exec --no-startup-id polybar -c "$HOME/.config/polybar/config.ini" top # Starts polybar
 
