@@ -1,7 +1,4 @@
 media-gfx/psftools
 sys-kernel/calculate-sources
-# This file will be migrate to new installation
-# required by kvantum (argument)
-=x11-themes/kvantum-0.16.0 ~amd64
-# required by vscode-bin (argument)
-=app-editors/vscode-bin-1.47.3 ~amd64
+x11-themes/kvantum
+app-editors/vscode-bin
