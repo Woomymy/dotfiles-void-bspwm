@@ -1,5 +1,5 @@
 #------------------------------------------------------------------------------
-# Modified Calculate Utilities 3.6.8
+# Modified Calculate Utilities 3.6.8.2
 # Processed template files:
 # /var/db/repos/calculate/profiles/templates/3.6/3_ac_install_live/1-merge/x11-misc/lightdm-gtk-greeter/lightdm-gtk-greeter.conf
 # For modify this file, create /etc/lightdm/lightdm-gtk-greeter.conf.clt template.
@@ -54,7 +54,7 @@
 #  transition-duration = overrides default value
 #
 [greeter]
-#background=
+background=/home/woomy/lightdm-wallpaper.jpg
 #user-background=
 #theme-name=
 #icon-theme-name=
@@ -69,11 +69,10 @@
 #reader=
 #position=
 #screensaver-timeout=
-background=/home/woomy/lightdm-wallpaper.jpg
 logo=/usr/share/wallpapers/calculate-logo.png
 theme-name=Arc-Dark
 icon-theme-name=Papirus
-cursor-theme-name="Material Dark Cursors"
+cursor-theme-name=Calculate
 font-name=Cascadia Code
 indicators=~host;~spacer;~a11y;~session;~clock;~power
 clock-format=%H:%M

@@ -1,7 +1,6 @@
 #------------------------------------------------------------------------------
-# Modified Calculate Utilities 3.6.8
+# Modified Calculate Utilities 3.6.8.2
 # Processed template files:
-# /var/db/repos/calculate/profiles/templates/3.6/2_ac_install_merge/sys-boot/grub/default.grub
 # /var/db/repos/calculate/profiles/templates/3.6/3_ac_install_live/1-merge/sys-boot/grub/splash/default.grub
 # For modify this file, create /etc/default/grub.clt template.
 #------------------------------------------------------------------------------
@@ -15,7 +14,7 @@
 # See the grub info page for documentation on possible variables and
 # their associated values.
 
-GRUB_DISTRIBUTOR="Calculate Linux I3"
+GRUB_DISTRIBUTOR="Calculate Linux Woomy"
 
 # Default menu entry
 #GRUB_DEFAULT=0
@@ -56,6 +55,7 @@ GRUB_DISTRIBUTOR="Calculate Linux I3"
 # Path to theme spec txt file.
 # The starfield is by default provided with use truetype.
 # NOTE: when enabling custom theme, ensure you have required font/etc.
+#GRUB_THEME="/boot/grub/themes/starfield/theme.txt"
 
 # Background image used on graphical terminal.
 # Can be in various bitmap formats.
@@ -80,11 +80,10 @@ GRUB_DISTRIBUTOR="Calculate Linux I3"
 GRUB_DISABLE_RECOVERY=true
 GRUB_DEFAULT=saved
 GRUB_TIMEOUT=0
-GRUB_GFXMODE="3600x1080"
+GRUB_GFXMODE="1680x1050"
 GRUB_BACKGROUND="/boot/grub/grub-calculate.png"
 GRUB_COLOR_NORMAL="white/black" 
 GRUB_COLOR_HIGHLIGHT="magenta/black"
-GRUB_GFXPAYLOAD_LINUX="3600x1080x24,3600x1080,1024x768"
-GRUB_FONT="/usr/share/grub/unicode.pf2"
-GRUB_CMDLINE_LINUX="video=3600x1080 real_resume=UUID=0d28ca90-b750-4850-9452-6d1a3df56445 rd.retry=40 calculate=video:nvidia splash quiet"
-GRUB_THEME="/usr/share/grub/themes/Vimix/theme.txt"
+GRUB_GFXPAYLOAD_LINUX="1680x1050x24,1680x1050,1024x768"
+GRUB_FONT="/boot/grub/cascadia.pf2"
+GRUB_CMDLINE_LINUX="video=1680x1050 real_resume=UUID=65b68b4d-5a8f-4dbe-82c8-c5dd19b09795 rd.auto rd.retry=40 calculate=video:nouveau rd.plymouth=0 splash=off console=tty1 quiet"
