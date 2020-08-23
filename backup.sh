@@ -96,7 +96,7 @@ if [[ -f "/${CH}/${F}" ]]; then
         cp "/${CH}/${F}" "${CH}/${F}"
 fi
 #Juste pour vs
-code --list-extensions >> "${CH}extensions"
+code --list-extensions > "${CH}/extensions"
 
 echo "Copie des services OpenRC  customisés et de leur configuration..."
 CH="etc/init.d"
