@@ -16,7 +16,13 @@ fi
 echo "==============="
 echo "Copie de la configuration..."
 echo "==============="
-
+echo "Copie de la configuration de Vim..."
+CH="$CHOME"
+F=".vimrc"
+if  [[ -f "/$CH/$F" ]]; then
+    mkdir -p "${CH}"
+    cp "/${CH}/${F}" "${CH}/${F}"
+fi
 echo "Copie de la configuration de I3..."
 CH="$CHOME/.config/i3"
 F="config"
