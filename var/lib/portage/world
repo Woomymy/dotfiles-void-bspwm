@@ -51,9 +51,11 @@ sys-firmware/ipw2200-firmware
 sys-firmware/nvidia-firmware
 sys-fs/btrfs-progs
 sys-fs/cryptsetup
+sys-fs/dosfstools
 sys-fs/e2fsprogs
 sys-fs/ecryptfs-utils
 sys-fs/eudev
+sys-fs/ntfs3g
 sys-fs/reiserfsprogs
 sys-fs/xfsprogs
 sys-kernel/dracut
@@ -69,6 +71,7 @@ x11-misc/rofi
 x11-terms/xfce4-terminal
 x11-themes/arc-theme
 x11-themes/kvantum
+x11-themes/larry-backgrounds
 x11-themes/papirus-icon-theme
 x11-wm/i3-gaps
 xfce-base/thunar
