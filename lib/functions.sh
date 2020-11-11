@@ -49,6 +49,9 @@ copy_files() {
     copy_file "$CHOME" ".zshrc"
     copy_file "$CHOME" ".p10k.zsh"
     copy_file "$CONFHOME/alacritty" "alacritty.yml"
+    copy_file "$CHOME" ".vuerc"
+    copy_file "$CHOME" ".gitconfig"
+    copy_file "$CONFHOME" "urxvtrc"
 }
 commit_and_push() {
     greenprint "Commiting to git"
