@@ -44,6 +44,7 @@ copy_files() {
     copy_dir "$CONFHOME/rofi"
     copy_dir "$CONFHOME/polybar"
     copy_file "$CONFHOME/i3" "config"
+    code --list-extensions > "$CONFHOME/Code/extensions"
     copy_file  "$CONFHOME/Code/User" "settings.json"
     copy_file "$CONFHOME/Kvantum" "kvantum.kvconfig"
     copy_file "$CHOME" ".zshrc"
