@@ -15,11 +15,11 @@ clean_dirs() {
     done
 }
 copy_files() {
-    echo "Hello"
+    echo "hello"
 }
 commit_and_push() {
     greenprint "Commiting to git"
-    echo -e "\e[39m"
+    echo -e "\e[39m" # Reset colors
     git add .
     git commit -m "$(date +"%A %d %B %R  %Y")" # Format like this: DAY date HOUR:MINUTE YEAR
     git push origin main
