@@ -19,6 +19,7 @@ copy_files() {
 }
 commit_and_push() {
     greenprint "Commiting to git"
+    echo ""
     git add .
     git commit -m "$(date +"%A %d %B %R  %Y")" # Format like this: DAY date HOUR:MINUTE YEAR
     git push origin main
