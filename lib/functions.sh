@@ -16,6 +16,7 @@ clean_dirs() {
 }
 copy_files() {
     # Portage
+    greenprint "Copying portage conf..."
     MAKEDOT=(conf)
     for DOTDIR in ${MAKEDOT[*]} 
     do
@@ -28,6 +29,13 @@ copy_files() {
     done
     copy_dir "etc/portage/repos.conf"
     copy_file "var/lib/portage" "world"
+
+    greenprint "Copying services and openrc configuration..."
+    copy_file "etc/init.d" "lightdm-wallpaper"
+    copy_file  "etc/conf.d" "lightdm-wallpaper"
+    copy_file "etc" "rc.conf"
+
+
 }
 commit_and_push() {
     greenprint "Commiting to git"
