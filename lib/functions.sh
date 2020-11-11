@@ -20,6 +20,12 @@ copy_files() {
     do
         copy_dir "etc/portage/make.${DOTDIR}"
     done
+    PACKAGEDOT=(use accept_keywords mask unmask use)
+    for DOTDIR in ${PACKAGEDOT[*]}
+    do
+        copy_dir "etc/portage/package.${DOTDIR}"
+    done
+    copy_dir "etc/portage/repos.conf"
 }
 commit_and_push() {
     greenprint "Commiting to git"

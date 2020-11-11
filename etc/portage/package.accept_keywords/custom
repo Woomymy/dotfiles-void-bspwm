@@ -1,0 +1,11 @@
+media-gfx/psftools
+#sys-kernel/calculate-sources
+x11-themes/kvantum
+=media-gfx/flameshot-0.6.0
+app-editors/vscode-bin
+# required by vimix-icon-theme (argument)
+=x11-themes/vimix-icon-theme-2020.07.10 ~amd64
+# required by twemoji-color-font (argument)
+=media-fonts/twemoji-color-font-13.0.1 ~amd64
+# required by sys-apps/bat (argument)
+=sys-apps/bat-0.15.4 ~amd64
