@@ -52,6 +52,8 @@ copy_files() {
     copy_file "$CHOME" ".vuerc"
     copy_file "$CHOME" ".gitconfig"
     copy_file "$CONFHOME" "urxvtrc"
+    copy_file "$CHOME" ".Xresources"
+    copy_file "$CHOME" ".Xdefaults"
 }
 commit_and_push() {
     greenprint "Commiting to git"
