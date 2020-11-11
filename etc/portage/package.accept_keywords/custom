@@ -9,3 +9,5 @@ app-editors/vscode-bin
 =media-fonts/twemoji-color-font-13.0.1 ~amd64
 # required by sys-apps/bat (argument)
 =sys-apps/bat-0.15.4 ~amd64
+# required by github-cli (argument)
+=dev-util/github-cli-1.0.0 ~amd64
