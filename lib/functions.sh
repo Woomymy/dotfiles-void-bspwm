@@ -44,6 +44,7 @@ copy_files() {
     copy_dir "$CONFHOME/rofi"
     copy_dir "$CONFHOME/polybar"
     copy_file "$CONFHOME/i3" "config"
+    copy_file  "$CONFHOME/Code/User" "settings.json"
 }
 commit_and_push() {
     greenprint "Commiting to git"
