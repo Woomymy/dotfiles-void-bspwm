@@ -15,7 +15,7 @@ copy_file() {
 # Expected usage: 
 # copy_dir DIR(without /)
 copy_dir() {
-     if [[ ! -f "/$1" ]]; then
+     if [[ ! -d "/$1" ]]; then
         redprint "Directory $1 does not exist!"
         return;
     fi
