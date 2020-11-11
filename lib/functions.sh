@@ -15,7 +15,11 @@ clean_dirs() {
     done
 }
 copy_files() {
-    echo "hello"
+    MAKEDOT=(conf)
+    for DOTDIR in ${MAKEDOT[*]} 
+    do
+        copy_dir "/etc/portage/make.${DOTDIR}"
+    done
 }
 commit_and_push() {
     greenprint "Commiting to git"
