@@ -15,6 +15,7 @@ clean_dirs() {
     done
 }
 copy_files() {
+    # Portage
     MAKEDOT=(conf)
     for DOTDIR in ${MAKEDOT[*]} 
     do
@@ -26,6 +27,7 @@ copy_files() {
         copy_dir "etc/portage/package.${DOTDIR}"
     done
     copy_dir "etc/portage/repos.conf"
+    copy_file "var/lib/portage" "world"
 }
 commit_and_push() {
     greenprint "Commiting to git"
