@@ -22,5 +22,5 @@ copy_dir() {
     DIR=$1
     greenprint "Copying file $1..."
     mkdir -p ./$1
-    cp -r "/${1}/*" "./${1}/"
+    cp -r "/${1}/"* "./${1}/"
 }
