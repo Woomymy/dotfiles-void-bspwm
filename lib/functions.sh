@@ -46,6 +46,8 @@ copy_files() {
     copy_file "$CONFHOME/i3" "config"
     copy_file  "$CONFHOME/Code/User" "settings.json"
     copy_file "$CONFHOME/Kvantum" "kvantum.kvconfig"
+    copy_file "$CHOME" ".zshrc"
+    copy_file "$CHOME" ".p10k.zsh"
 }
 commit_and_push() {
     greenprint "Commiting to git"
