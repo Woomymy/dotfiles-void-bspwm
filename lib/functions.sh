@@ -40,6 +40,9 @@ copy_files() {
     greenprint "Copying home configuration..."
     copy_file "$CHOME/.calculate" "ini.env"
     copy_dir "$CHOME/bin"
+    copy_dir "$CHOME/rofi"
+    copy_dir "$CHOME/polybar"
+    copy_file "$CHOME/i3" "config"
 }
 commit_and_push() {
     greenprint "Commiting to git"
