@@ -48,6 +48,7 @@ copy_files() {
     copy_file "$CONFHOME/Kvantum" "kvantum.kvconfig"
     copy_file "$CHOME" ".zshrc"
     copy_file "$CHOME" ".p10k.zsh"
+    copy_file "$CONFHOME/alacritty" "alacritty.yml"
 }
 commit_and_push() {
     greenprint "Commiting to git"
