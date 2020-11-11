@@ -2,7 +2,7 @@ source "./lib/colors.sh"
 # Expected usage: 
 # copy_file DIR FILE (without /) 
 copy_file() {
-    if [[ ! -f "/$1/$2" || -z $1 || -z $2 ]]; then
+    if [[ ! -f "/$1/$2" ]]; then
         redprint "File $1/$2 does not exist!"
         return;
     fi
@@ -15,7 +15,7 @@ copy_file() {
 # Expected usage: 
 # copy_dir DIR(without /)
 copy_dir() {
-     if [[ ! -f "/$1" || -z $1 ]]; then
+     if [[ ! -f "/$1" ]]; then
         redprint "Directory $1 does not exist!"
         return;
     fi
