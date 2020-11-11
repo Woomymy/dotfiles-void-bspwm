@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Signed Dark Pro",
+    "window.zoomLevel": 3,
+    "git.autofetch": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false
+}
