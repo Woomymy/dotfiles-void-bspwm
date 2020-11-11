@@ -19,6 +19,7 @@ app-portage/gentoolkit
 app-shells/zsh
 dev-ruby/sass
 dev-vcs/git
+gnome-base/gnome-desktop
 gnome-extra/gnome-characters
 lxde-base/lxappearance
 mate-extra/mate-polkit
