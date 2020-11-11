@@ -1,4 +1,5 @@
 source "./lib/colors.sh"
+source "./lib/copy.sh"
 banner() {
     cyanprint "==================="
     cyanprint "Copying dotfiles..."
@@ -13,7 +14,11 @@ clean_dirs() {
         fi
     done
 }
+copy_files() {
+    
+}
 main() {
     banner # Execute the banner
     clean_dirs # Cleans old directories
+    copy_files # Copy the files
 }
