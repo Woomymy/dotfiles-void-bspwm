@@ -18,7 +18,7 @@ copy_files() {
     MAKEDOT=(conf)
     for DOTDIR in ${MAKEDOT[*]} 
     do
-        copy_dir "/etc/portage/make.${DOTDIR}"
+        copy_dir "etc/portage/make.${DOTDIR}"
     done
 }
 commit_and_push() {
