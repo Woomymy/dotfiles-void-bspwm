@@ -1,4 +1,5 @@
 CHOME="home/$USER"
+CONFHOME="$CHOME/.config"
 source "./lib/colors.sh"
 source "./lib/copy.sh"
 banner() {
@@ -35,14 +36,14 @@ copy_files() {
     copy_file "etc/init.d" "lightdm-wallpaper"
     copy_file  "etc/conf.d" "lightdm-wallpaper"
     copy_file "etc" "rc.conf"
-    copy_filer "etc/lightdm" "lightdm-gtk-greeter.conf.clt"
+    copy_file "etc/lightdm" "lightdm-gtk-greeter.conf.clt"
     
     greenprint "Copying home configuration..."
     copy_file "$CHOME/.calculate" "ini.env"
     copy_dir "$CHOME/bin"
-    copy_dir "$CHOME/rofi"
-    copy_dir "$CHOME/polybar"
-    copy_file "$CHOME/i3" "config"
+    copy_dir "$CONFHOME/rofi"
+    copy_dir "$CONFHOME/polybar"
+    copy_file "$CONFHOME/i3" "config"
 }
 commit_and_push() {
     greenprint "Commiting to git"
