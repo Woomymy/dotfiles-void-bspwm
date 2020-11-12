@@ -121,4 +121,5 @@ for_window [class=".*"] border pixel 1
 exec --no-startup-id bash "$HOME/bin/theming/wallpaper.sh" # Starts random wallpapers
 exec --no-startup-id /usr/libexec/polkit-mate-authentication-agent-1 &
 exec --no-startup-id polybar -c "$HOME/.config/polybar/config.ini" top # Starts polybar
-exec --no-startup-id dunst &
+exec --no-startup-id picom -b # Compositor
+exec --no-startup-id dunst & # Notification dameon
