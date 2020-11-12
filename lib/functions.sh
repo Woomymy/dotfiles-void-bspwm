@@ -54,7 +54,7 @@ copy_files() {
     copy_file "$CHOME" ".gitconfig"
     copy_file "$CHOME" ".Xresources"
     copy_file "$CHOME" ".Xdefaults"
-    copy_dir "$CONFHOME/.config/nvim"
+    copy_dir "$CONFHOME/nvim"
 }
 commit_and_push() {
     greenprint "Commiting to git"
