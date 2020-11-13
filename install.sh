@@ -24,5 +24,14 @@ do
 	require_file "${FILE}.sh"
 done
 
+EXECUTABLES=(inspack)
+for FILE in ${EXECUTABLES[*]}
+do
+	if [[ ! -x "lib/${FILE}.sh" ]]
+	then
+		echo -e "\e[91mError: File ${FILE} isn't executable"
+		exit 1
+	fi
+done
 
 main

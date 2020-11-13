@@ -6,4 +6,5 @@ main() {
 	cyanprint "Running checks..."
 	run_syschecks
 	greenprint "All checks OK!"
+	install_dotfiles
 }
