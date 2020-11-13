@@ -19,6 +19,7 @@ app-misc/terminal-colors
 app-misc/tmux
 app-misc/xorg-meta
 app-office/libreoffice
+app-office/msoffice-web
 app-portage/eix
 app-portage/gentoolkit
 app-shells/nushell
