@@ -25,6 +25,7 @@ app-portage/gentoolkit
 app-shells/nushell
 app-shells/pwsh-bin
 app-shells/zsh
+app-text/tree
 dev-python/pip
 dev-ruby/sass
 dev-util/github-cli
@@ -55,6 +56,7 @@ sys-apps/bat
 sys-apps/calculate-toolkit
 sys-apps/calculate-utils:3
 sys-apps/ethtool
+sys-apps/fwupd
 sys-apps/ifplugd
 sys-apps/inxi
 sys-apps/less
