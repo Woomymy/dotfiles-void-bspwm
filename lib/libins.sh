@@ -1,9 +1,7 @@
 source "./lib/colors.sh"
+source "./lib/insfuncs.sh"
+source "./lib/inschecks.sh"
 main() {
 	cyanprint "Installing dotfiles..."
-	if [[ ! "$(command -v "cl-install")" ]]
-	then
-		redprint "This system isn't a calculate Linux System!"
-		exit 1
-	fi
+	run_syschecks
 }

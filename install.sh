@@ -17,7 +17,7 @@ require_file() {
 	fi
 }
 
-REQUIRED=(colors libins)
+REQUIRED=(inschecks insfuncs colors libins)
 
 for FILE in ${REQUIRED[*]}
 do
