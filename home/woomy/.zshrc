@@ -7,7 +7,7 @@ ENABLE_CORRECTION="true"
 plugins=(git sudo node)
 
 source $ZSH/oh-my-zsh.sh
-export EDITOR="vim"
+export EDITOR="nvim"
 export ARCHFLAGS="-arch x86_64"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
