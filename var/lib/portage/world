@@ -25,9 +25,11 @@ app-portage/gentoolkit
 app-shells/nushell
 app-shells/pwsh-bin
 app-shells/zsh
+dev-python/pip
 dev-ruby/sass
 dev-util/github-cli
 dev-vcs/git
+dev-vcs/subversion
 gnome-base/gnome-desktop
 gnome-extra/gnome-characters
 lxde-base/lxappearance
@@ -91,6 +93,9 @@ x11-terms/alacritty
 x11-themes/arc-theme
 x11-themes/kvantum
 x11-themes/larry-backgrounds
+x11-themes/numix-gtk-theme
+x11-themes/numix-icon-theme
 x11-themes/papirus-icon-theme
+x11-themes/vimix-gtk-themes
 x11-themes/vimix-icon-theme
 x11-wm/i3-gaps

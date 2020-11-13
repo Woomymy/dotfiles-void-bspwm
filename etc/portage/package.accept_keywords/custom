@@ -13,3 +13,5 @@ app-editors/vscode-bin
 =dev-util/github-cli-1.0.0 ~amd64
 # required by pwsh-bin (argument)
 =app-shells/pwsh-bin-7.0.3 ~amd64
+# required by vimix-gtk-themes (argument)
+=x11-themes/vimix-gtk-themes-2020.02.24 ~amd64
