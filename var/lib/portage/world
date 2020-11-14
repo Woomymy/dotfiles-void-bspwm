@@ -15,7 +15,6 @@ app-editors/vscode-bin
 app-emulation/docker
 app-misc/authy
 app-misc/neofetch
-app-misc/sl
 app-misc/terminal-colors
 app-misc/tmux
 app-misc/xorg-meta
@@ -32,7 +31,6 @@ dev-ruby/sass
 dev-util/github-cli
 dev-vcs/git
 dev-vcs/subversion
-games-misc/cowsay
 gnome-base/gnome-desktop
 gnome-extra/gnome-characters
 lxde-base/lxappearance
