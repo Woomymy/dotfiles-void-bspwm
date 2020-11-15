@@ -13,6 +13,8 @@ app-editors/neovim
 app-editors/vim
 app-editors/vscode-bin
 app-emulation/docker
+app-emulation/qemu
+app-emulation/virt-manager
 app-misc/authy
 app-misc/neofetch
 app-misc/sl
@@ -23,10 +25,12 @@ app-office/libreoffice
 app-office/msoffice-web
 app-portage/eix
 app-portage/gentoolkit
+app-portage/mirrorselect
 app-shells/nushell
 app-shells/pwsh-bin
 app-shells/zsh
 app-text/tree
+dev-libs/libisoburn
 dev-python/pip
 dev-ruby/sass
 dev-util/github-cli
@@ -38,9 +42,9 @@ gnome-extra/gnome-characters
 lxde-base/lxappearance
 mate-extra/mate-polkit
 media-fonts/cascadia-code
+media-fonts/meslo
 media-fonts/noto-emoji
 media-fonts/terminus-font
-media-fonts/twemoji-color-font
 media-gfx/flameshot
 media-gfx/gfxboot-themes-calculate
 media-sound/cmus
@@ -49,6 +53,8 @@ media-sound/pavucontrol
 media-video/peek
 net-im/discord-bin
 net-im/teams
+net-irc/hexchat
+net-irc/weechat
 net-libs/nodejs
 net-misc/dhcp
 net-misc/ntp
@@ -58,6 +64,7 @@ sys-apps/bat
 sys-apps/calculate-toolkit
 sys-apps/calculate-utils:3
 sys-apps/ethtool
+sys-apps/flatpak
 sys-apps/fwupd
 sys-apps/ifplugd
 sys-apps/inxi
