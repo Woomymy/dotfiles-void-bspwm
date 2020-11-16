@@ -11,7 +11,7 @@ check_is_calculate() {
 	fi
 }
 check_ping() {
-	ping -c 1 "github.com" > /dev/null
+	ping -c 1 "github.com"
 	if [[ $? != "0" ]]
 	then 
 		redprint "No internet connection aviable!"
