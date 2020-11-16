@@ -47,6 +47,8 @@ media-fonts/noto-emoji
 media-fonts/terminus-font
 media-gfx/flameshot
 media-gfx/gfxboot-themes-calculate
+media-gfx/gimp
+media-gfx/krita
 media-sound/cmus
 media-sound/easytag
 media-sound/pavucontrol
