@@ -17,6 +17,9 @@ install_dotfiles() {
 	then
 		sudo emerge $(cat "tmp/packagelist")
 	fi
-	# Use a dedicated script because xargs doesn't support bash functions
+	cyanprint "Cleaning portage distfiles and unused dependencies"
+	sudo eclean -d distfiles 
+	sudo eclean -d packages 
+	sudo emerge --depclean
 	
 }
