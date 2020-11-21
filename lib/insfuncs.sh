@@ -16,6 +16,11 @@ install_dotfiles() {
 	if [[ -f "tmp/packagelist" ]]
 	then
 		sudo emerge $(cat "tmp/packagelist")
+		if [[ $? != "0" ]]
+		then
+			redprint "Error installing packages!"
+			exit 1
+		fi
 	fi
 	cyanprint "Cleaning portage distfiles and unused dependencies"
 	sudo eclean -d distfiles 

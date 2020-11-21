@@ -1,1 +1,2 @@
 sys-kernel/calculate-sources -minimal -vmlinuz fsync muqss uksm
+sys-apps/calculate-utils -install client qt5
