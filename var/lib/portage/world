@@ -15,6 +15,9 @@ app-editors/vscode-bin
 app-emulation/docker
 app-emulation/qemu
 app-emulation/virt-manager
+app-emulation/wine-mono
+app-emulation/wine-vanilla
+app-emulation/winetricks
 app-misc/authy
 app-misc/neofetch
 app-misc/sl
@@ -29,6 +32,7 @@ app-portage/mirrorselect
 app-shells/nushell
 app-shells/pwsh-bin
 app-shells/zsh
+app-text/evince
 app-text/tree
 dev-libs/libisoburn
 dev-python/pip
@@ -37,6 +41,7 @@ dev-util/github-cli
 dev-vcs/git
 dev-vcs/subversion
 games-misc/cowsay
+games-util/lutris
 gnome-base/gnome-desktop
 gnome-extra/gnome-characters
 lxde-base/lxappearance
@@ -48,6 +53,7 @@ media-fonts/terminus-font
 media-gfx/flameshot
 media-gfx/gfxboot-themes-calculate
 media-gfx/gimp
+media-gfx/inkscape
 media-gfx/krita
 media-sound/cmus
 media-sound/easytag
@@ -75,6 +81,7 @@ sys-apps/lsd
 sys-apps/openrc
 sys-apps/usbutils
 sys-auth/pam_update
+sys-block/gparted
 sys-boot/efibootmgr
 sys-boot/gnu-efi
 sys-boot/grub:2
