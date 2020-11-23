@@ -19,6 +19,7 @@ app-emulation/wine-mono
 app-emulation/wine-vanilla
 app-emulation/winetricks
 app-misc/authy
+app-misc/figlet
 app-misc/neofetch
 app-misc/sl
 app-misc/terminal-colors
@@ -54,6 +55,7 @@ media-gfx/gfxboot-themes-calculate
 media-gfx/gimp
 media-gfx/inkscape
 media-gfx/krita
+media-libs/libsfml
 media-sound/cmus
 media-sound/easytag
 media-sound/pavucontrol
