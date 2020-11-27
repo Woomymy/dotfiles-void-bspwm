@@ -37,6 +37,7 @@ app-text/evince
 app-text/tree
 dev-libs/libisoburn
 dev-ruby/sass
+dev-util/android-tools
 dev-util/github-cli
 dev-vcs/git
 dev-vcs/subversion
@@ -102,6 +103,7 @@ virtual/linux-sources
 virtual/logger
 www-client/elinks
 www-client/firefox
+www-client/midori
 x11-misc/arandr
 x11-misc/dunst
 x11-misc/lightdm
