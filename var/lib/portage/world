@@ -37,6 +37,7 @@ app-text/evince
 app-text/tree
 dev-libs/libisoburn
 dev-ruby/sass
+dev-tcltk/expect
 dev-util/android-tools
 dev-util/github-cli
 dev-vcs/git
@@ -61,6 +62,7 @@ media-sound/cmus
 media-sound/easytag
 media-sound/pavucontrol
 media-video/peek
+net-analyzer/speedtest-cli
 net-im/discord-bin
 net-im/teams
 net-irc/hexchat
@@ -97,6 +99,7 @@ sys-fs/eudev
 sys-fs/ntfs3g
 sys-fs/xfsprogs
 sys-kernel/dracut
+sys-kernel/gentoo-kernel-bin
 sys-process/htop
 virtual/cron
 virtual/linux-sources

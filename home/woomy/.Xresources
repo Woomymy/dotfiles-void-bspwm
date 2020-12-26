@@ -1,1 +1,2 @@
-#include ".config/urxvtrc"
+
+Xft.dpi: 150
