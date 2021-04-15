@@ -4,6 +4,10 @@ homefiles:
     path: ".zshrc"
     backuponly: ~
     onlyon: ~
+  - name: Neovim config
+    path: ".config/nvim"
+    backuponly: ~
+    onlyon: ~
 rootfiles:
   - name: Sysctl config
     path: /etc/sysctl.conf
@@ -28,3 +32,22 @@ rootfiles:
 postsave: []
 prerun: []
 postrun: []
+packages:
+  gentoo:
+    with_file: ~
+    packages: []
+  arch:
+    with_file: ~
+    packages: []
+  debian:
+    with_file: ~
+    packages: []
+  fedora:
+    with_file: ~
+    packages: []
+  npm:
+    with_file: ~
+    packages: []
+  gems:
+    with_file: ~
+    packages: []
