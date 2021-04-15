@@ -1,3 +1,4 @@
+export PATH="${PATH}:${HOME}/.cargo/bin"
 export ZSH="$HOME/.oh-my-zsh"
 # Set OMZ Theme to sulfurium
 ZSH_THEME="sulfurium"
