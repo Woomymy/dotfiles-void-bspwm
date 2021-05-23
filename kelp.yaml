@@ -32,6 +32,8 @@ homefiles:
     path: ~/.config/rofi
   - name: Fish config
     path: ~/.config/fish/
+  - name: Custom binaries
+    path: ~/bin/
 rootfiles:
   - name: Sysctl config
     path: /etc/sysctl.conf
