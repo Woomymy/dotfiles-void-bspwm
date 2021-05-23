@@ -1,0 +1,8 @@
+[user]
+	email = github@woomy.ovh
+	name = Woomymy
+	signingkey = D613CC8F
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main

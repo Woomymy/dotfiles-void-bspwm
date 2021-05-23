@@ -16,6 +16,12 @@ homefiles:
     path: ".config/alacritty/alacritty.yml"
     backuponly: ~
     onlyon: ~
+  - name: Git configuration
+    path: ".gitconfig"
+  - name: BSPWM configuration
+    path: ".config/bspwm/bspwmrc"
+  - name: SXHKD configuration
+    path: ".config/sxhkd/sxhkdrc"
 rootfiles:
   - name: Sysctl config
     path: /etc/sysctl.conf
