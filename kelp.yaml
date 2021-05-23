@@ -26,6 +26,8 @@ homefiles:
     path: "Pictures/wallpaper.jpg"
   - name: Wallpapers credits file
     path: "Pictures/WALL_CREDITS.md"
+  - name: Polybar config
+    path: ~/.config/polybar/
 rootfiles:
   - name: Sysctl config
     path: /etc/sysctl.conf
