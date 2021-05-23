@@ -36,6 +36,8 @@ homefiles:
     path: ~/bin/
   - name: Polybar config
     path: ~/.config/polybar/
+  - name: Dunst config
+    path: .config/dunst/dunstrc
 rootfiles:
   - name: Sysctl config
     path: /etc/sysctl.conf
