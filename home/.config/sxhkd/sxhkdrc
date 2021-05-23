@@ -1,0 +1,17 @@
+super + shift + a
+	bspc node --close
+
+super + shift + r
+	bspc wm -r
+
+super + f
+	bspc node --state \~fullscreen
+
+super + Return
+	alacritty
+
+super + f
+	bspc node --state \~fullscreen
+
+super + {_,shift + }{Left,Down,Up,Right}
+	bspc node --{focus,swap} {west,south,north,east}
