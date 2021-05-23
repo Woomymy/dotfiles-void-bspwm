@@ -22,6 +22,10 @@ homefiles:
     path: ".config/bspwm/bspwmrc"
   - name: SXHKD configuration
     path: ".config/sxhkd/sxhkdrc"
+  - name: Wallpaper
+    path: "Pictures/wallpaper.jpg"
+  - name: Wallpapers credits file
+    path: "Pictures/WALL_CREDITS.md"
 rootfiles:
   - name: Sysctl config
     path: /etc/sysctl.conf
