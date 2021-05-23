@@ -1,0 +1,45 @@
+---
+homefiles:
+  - name: Bash config
+    path: ".bashrc"
+    backuponly: ~
+    onlyon: ~
+  - name: Neovim config
+    path: ".config/nvim"
+    backuponly: ~
+    onlyon: ~
+  - name: Picom config
+    path: ".config/picom"
+    backuponly: ~
+    onlyon: ~
+  - name: Alacritty config
+    path: ".config/alacritty/alacritty.yml"
+    backuponly: ~
+    onlyon: ~
+rootfiles:
+  - name: Sysctl config
+    path: /etc/sysctl.conf
+    backuponly: true
+    onlyon: ~
+postsave: []
+prerun: []
+postrun: []
+packages:
+  gentoo:
+    with_file: ~
+    packages: []
+  arch:
+    with_file: ~
+    packages: []
+  debian:
+    with_file: ~
+    packages: []
+  fedora:
+    with_file: ~
+    packages: []
+  npm:
+    with_file: ~
+    packages: []
+  gems:
+    with_file: ~
+    packages: []
