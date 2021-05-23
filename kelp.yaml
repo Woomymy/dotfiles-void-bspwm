@@ -30,6 +30,8 @@ homefiles:
     path: ~/.config/polybar/
   - name: Rofi config
     path: ~/.config/rofi
+  - name: Fish config
+    path: ~/.config/fish/
 rootfiles:
   - name: Sysctl config
     path: /etc/sysctl.conf
