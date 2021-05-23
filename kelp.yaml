@@ -34,6 +34,8 @@ homefiles:
     path: ~/.config/fish/
   - name: Custom binaries
     path: ~/bin/
+  - name: Polybar config
+    path: ~/.config/polybar/
 rootfiles:
   - name: Sysctl config
     path: /etc/sysctl.conf
