@@ -13,5 +13,8 @@ super + Return
 super + f
 	bspc node --state \~fullscreen
 
+super + d
+	rofi -show drun
+
 super + {_,shift + }{Left,Down,Up,Right}
 	bspc node --{focus,swap} {west,south,north,east}

@@ -28,6 +28,8 @@ homefiles:
     path: "Pictures/WALL_CREDITS.md"
   - name: Polybar config
     path: ~/.config/polybar/
+  - name: Rofi config
+    path: ~/.config/rofi
 rootfiles:
   - name: Sysctl config
     path: /etc/sysctl.conf
