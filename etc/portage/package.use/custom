@@ -1,2 +1,0 @@
-sys-apps/fwupd cairo minimal agent amt archive -bluetooth -dell -elogind flashrom gnutls -gtk-docs -introspection minimal -nvme -policykit -redfish synaptics -gusb
-# This file will be migrate to new installation
