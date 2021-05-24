@@ -6,12 +6,13 @@ homefiles:
     onlyon: ~
   - name: X resources
     path: ".Xresources"
+    backuponly: ~
   - name: Neovim config
-    path: ".config/nvim"
+    path: ".config/nvim/"
     backuponly: ~
     onlyon: ~
   - name: Picom config
-    path: ".config/picom"
+    path: ".config/picom/"
     backuponly: ~
     onlyon: ~
   - name: Alacritty config
@@ -20,26 +21,45 @@ homefiles:
     onlyon: ~
   - name: Git configuration
     path: ".gitconfig"
+    backuponly: ~
+    onlyon: ~
   - name: BSPWM configuration
     path: ".config/bspwm/bspwmrc"
+    backuponly: ~
+    onlyon: ~
   - name: SXHKD configuration
     path: ".config/sxhkd/sxhkdrc"
+    backuponly: ~
+    onlyon: ~
   - name: Wallpaper
     path: "Pictures/wallpaper.jpg"
+    backuponly: ~
+    onlyon: ~
   - name: Wallpapers credits file
     path: "Pictures/WALL_CREDITS.md"
+    backuponly: ~
+    onlyon: ~
   - name: Polybar config
-    path: ~/.config/polybar/
+    path: ".config/polybar/"
+    backuponly: ~
+    onlyon: ~
   - name: Rofi config
-    path: ~/.config/rofi
+    path: ".config/rofi/"
+    backuponly: ~
+    onlyon: ~
   - name: Fish config
-    path: ~/.config/fish/
+    path: ".config/fish/"
+    backuponly: ~
+    onlyon: ~
   - name: Custom binaries
-    path: ~/bin/
-  - name: Polybar config
-    path: ~/.config/polybar/
+    path: "bin/"
+    onlyon: ~
+    backuponly: false
   - name: Dunst config
-    path: .config/dunst/dunstrc
+    path: ".config/dunst/dunstrc"
+    onlyon: ~
+    backuponly: false
+
 rootfiles:
   - name: Sysctl config
     path: /etc/sysctl.conf
@@ -48,22 +68,3 @@ rootfiles:
 postsave: []
 prerun: []
 postrun: []
-packages:
-  gentoo:
-    with_file: ~
-    packages: []
-  arch:
-    with_file: ~
-    packages: []
-  debian:
-    with_file: ~
-    packages: []
-  fedora:
-    with_file: ~
-    packages: []
-  npm:
-    with_file: ~
-    packages: []
-  gems:
-    with_file: ~
-    packages: []
