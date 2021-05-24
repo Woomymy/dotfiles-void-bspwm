@@ -9,4 +9,9 @@ My dotfiles for void GNU/Linux + BSPWM
 - Launcher: Rofi
 - Editor: Neovim
 - Bar: Polybar
+- Notifications daemon: Dunst
+
+## Screenshots
+
+![Desktop](screenshots/desktop.png)
 
