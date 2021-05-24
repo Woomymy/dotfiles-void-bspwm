@@ -4,6 +4,8 @@ homefiles:
     path: ".bashrc"
     backuponly: ~
     onlyon: ~
+  - name: X resources
+    path: ".Xresources"
   - name: Neovim config
     path: ".config/nvim"
     backuponly: ~
